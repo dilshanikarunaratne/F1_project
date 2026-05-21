@@ -4,13 +4,21 @@ import joblib
 
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
+from sklearn.metrics import (
+    classification_report,
+    confusion_matrix,
+    roc_auc_score,
+    average_precision_score,
+)
+
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
+from catboost import CatBoostClassifier
 
 from preprocessing import preprocess_data
 
 
-# Project paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DATA_PATH = os.path.join(
@@ -23,7 +31,6 @@ PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 MODEL_PATH = os.path.join(MODELS_DIR, "race_outcome_prediction_models.pkl")
 FEATURES_PATH = os.path.join(MODELS_DIR, "feature_columns.pkl")
 OUTPUT_DATA_PATH = os.path.join(PROCESSED_DIR, "race_outcome_predictions_output.csv")
-
 
 
 FEATURES = [
@@ -52,7 +59,7 @@ TARGETS = [
 ]
 
 
-# Target creations
+# Target creation
 def create_targets(df):
     df = df.copy()
 
@@ -78,6 +85,7 @@ def create_targets(df):
             "+9 Laps",
             "+10 Laps",
         }
+
         df["dnf"] = (~df["status"].isin(finished_statuses)).astype("int64")
     else:
         raise ValueError(
@@ -86,17 +94,81 @@ def create_targets(df):
 
     return df
 
-# Building RF model
-def build_model():
-    return Pipeline(steps=[
+
+# Building models
+def build_candidate_models():
+    random_forest = Pipeline(steps=[
         ("imputer", SimpleImputer(strategy="median")),
         ("classifier", RandomForestClassifier(
-            n_estimators=300,
-            max_depth=6,
+            n_estimators=500,
+            max_depth=8,
+            min_samples_leaf=5,
             random_state=42,
             class_weight="balanced",
+            n_jobs=-1,
         )),
     ])
+
+    xgboost = Pipeline(steps=[
+        ("imputer", SimpleImputer(strategy="median")),
+        ("classifier", XGBClassifier(
+            n_estimators=500,
+            max_depth=4,
+            learning_rate=0.03,
+            subsample=0.85,
+            colsample_bytree=0.85,
+            eval_metric="logloss",
+            random_state=42,
+            n_jobs=-1,
+        )),
+    ])
+
+    lightgbm = Pipeline(steps=[
+        ("imputer", SimpleImputer(strategy="median")),
+        ("classifier", LGBMClassifier(
+            n_estimators=500,
+            max_depth=5,
+            learning_rate=0.03,
+            subsample=0.85,
+            colsample_bytree=0.85,
+            class_weight="balanced",
+            random_state=42,
+            n_jobs=-1,
+            verbose=-1,
+        )),
+    ])
+
+    catboost = Pipeline(steps=[
+        ("imputer", SimpleImputer(strategy="median")),
+        ("classifier", CatBoostClassifier(
+            iterations=500,
+            depth=5,
+            learning_rate=0.03,
+            loss_function="Logloss",
+            verbose=False,
+            random_seed=42,
+            auto_class_weights="Balanced",
+        )),
+    ])
+
+    voting_ensemble = VotingClassifier(
+        estimators=[
+            ("rf", random_forest),
+            ("xgb", xgboost),
+            ("lgbm", lightgbm),
+            ("cat", catboost),
+        ],
+        voting="soft",
+        n_jobs=-1,
+    )
+
+    return {
+        "random_forest": random_forest,
+        "xgboost": xgboost,
+        "lightgbm": lightgbm,
+        "catboost": catboost,
+        "voting_ensemble": voting_ensemble,
+    }
 
 
 # Main training function
@@ -125,81 +197,91 @@ def train_model():
     print("Training shape:", X_train.shape)
     print("Testing shape:", X_test.shape)
 
-    models = {}
+    best_models = {}
+    model_scores = {}
     results = test_df.copy()
 
     for target in TARGETS:
-        print(f"Training target: {target}")
+        print(f"Training models for target: {target}")
 
         y_train = train_df[target]
         y_test = test_df[target]
 
-        model = build_model()
-        model.fit(X_train, y_train)
+        candidate_models = build_candidate_models()
 
-        y_pred = model.predict(X_test)
-        y_proba = model.predict_proba(X_test)[:, 1]
+        best_model = None
+        best_model_name = None
+        best_score = -1
 
-        models[target] = model
+        model_scores[target] = {}
 
-        probability_col = f"{target}_probability"
-        prediction_col = f"predicted_{target}"
+        for model_name, model in candidate_models.items():
+            print(f"\nModel: {model_name}")
 
-        results[probability_col] = y_proba
-        results[prediction_col] = y_pred
+            model.fit(X_train, y_train)
 
-        print("\nClassification Report:")
-        print(classification_report(y_test, y_pred))
+            y_pred = model.predict(X_test)
+            y_proba = model.predict_proba(X_test)[:, 1]
 
-        if y_test.nunique() > 1:
-            print("ROC-AUC:", roc_auc_score(y_test, y_proba))
-        else:
-            print("ROC-AUC skipped: only one class present in test data.")
+            if y_test.nunique() > 1:
+                roc_auc = roc_auc_score(y_test, y_proba)
+                pr_auc = average_precision_score(y_test, y_proba)
+            else:
+                roc_auc = None
+                pr_auc = None
 
-        print("\nConfusion Matrix:")
-        print(confusion_matrix(y_test, y_pred))
+            model_scores[target][model_name] = {
+                "roc_auc": roc_auc,
+                "pr_auc": pr_auc,
+            }
 
-    # podium probability should not exceed top 10 probability.
-    results["top_10_finish_probability"] = results[
-        ["top_10_finish_probability", "podium_finish_probability"]
-    ].max(axis=1)
+            print("ROC-AUC:", roc_auc)
+            print("PR-AUC:", pr_auc)
 
-    preview_cols = [
-        "year",
-        "round",
-        "race_name",
-        "driver_name",
-        "constructor_name",
-        "qualifying_position",
-        "finish_position",
-        "podium_finish",
-        "top_10_finish",
-        "dnf",
+            print("\nClassification Report:")
+            print(classification_report(y_test, y_pred))
+
+            print("Confusion Matrix:")
+            print(confusion_matrix(y_test, y_pred))
+
+            # PR-AUC is better for imbalanced targets like podium and DNF.
+            score = pr_auc if pr_auc is not None else -1
+
+            if score > best_score:
+                best_score = score
+                best_model = model
+                best_model_name = model_name
+
+        print(f"\nBest model for {target}: {best_model_name}")
+        print(f"Best PR-AUC: {best_score}")
+
+        best_models[target] = {
+            "model_name": best_model_name,
+            "model": best_model,
+            "score": best_score,
+        }
+
+        target_predictions = best_model.predict(X_test)
+        target_probabilities = best_model.predict_proba(X_test)[:, 1]
+
+        results[f"{target}_prediction"] = target_predictions
+        results[f"{target}_probability"] = target_probabilities.round(4)
+
+    # podium probability should not be higher than top 10 probability.
+    if {
         "podium_finish_probability",
         "top_10_finish_probability",
-        "dnf_probability",
-        "predicted_podium_finish",
-        "predicted_top_10_finish",
-        "predicted_dnf",
-    ]
-
-    preview_cols = [col for col in preview_cols if col in results.columns]
-
-    print("\nPrediction Preview:")
-    print(
-        results[preview_cols]
-        .sort_values(
-            by=["year", "round", "podium_finish_probability"],
-            ascending=[True, True, False],
-        )
-        .head(30)
-    )
+    }.issubset(results.columns):
+        results["top_10_finish_probability"] = results[
+            ["top_10_finish_probability", "podium_finish_probability"]
+        ].max(axis=1)
 
     joblib.dump(
         {
-            "models": models,
+            "models": best_models,
             "features": FEATURES,
             "targets": TARGETS,
+            "model_scores": model_scores,
         },
         MODEL_PATH,
     )

@@ -52,7 +52,9 @@ def make_predictions(new_data):
 
     results = new_data.copy()
 
-    for target, model in models.items():
+    for target, model_info in models.items():
+        model = model_info["model"]
+
         predictions = model.predict(processed_data)
         probabilities = model.predict_proba(processed_data)[:, 1]
 
