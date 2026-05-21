@@ -1,35 +1,71 @@
 import os
 import joblib
-from preprocessing import preprocess_data
 import pandas as pd
 
-# get root project folder
+from preprocessing import preprocess_data
+
+
+# -------------------------------------------------------
+# Project paths
+# -------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# path to the saved trained model
-MODEL_PATH = os.path.join(BASE_DIR, "models", "podium_prediction_model.pkl")
-# path to saved feature column names
-FEATURES_PATH = os.path.join(BASE_DIR, "models", "feature_columns.pkl")
 
-# ------------------------
-# main prediction function 
-# ------------------------
+MODEL_PATH = os.path.join(
+    BASE_DIR, "models", "race_outcome_prediction_models.pkl"
+)
+
+FEATURES_PATH = os.path.join(
+    BASE_DIR, "models", "feature_columns.pkl"
+)
+
+
+
+# Main prediction function
 def make_predictions(new_data):
-    model = joblib.load(MODEL_PATH) # load saved trained model
-    feature_columns = joblib.load(FEATURES_PATH) # load saved feature column names
+    model_bundle = joblib.load(MODEL_PATH)
 
-    processed_data = preprocess_data(new_data.copy()) # runs same preprocessing pipeline. copy() is to prevent modifying original data
+    models = model_bundle["models"]
+    feature_columns = model_bundle.get("features")
 
-    if "podium_finish" in processed_data.columns:
-        processed_data = processed_data.drop("podium_finish", axis=1)
+    if feature_columns is None:
+        feature_columns = joblib.load(FEATURES_PATH)
 
-    processed_data = processed_data.reindex(columns=feature_columns, fill_value=0) # to ensure exact same columns, exact same order
+    processed_data = preprocess_data(new_data.copy())
 
-    predictions = model.predict(processed_data)
-    probabilities = model.predict_proba(processed_data)[:, 1]
+    # Drop known target columns if they exist in incoming data.
+    target_columns = [
+        "podium_finish",
+        "top_10_finish",
+        "dnf",
+    ]
+
+    processed_data = processed_data.drop(
+        columns=[col for col in target_columns if col in processed_data.columns],
+        errors="ignore",
+    )
+
+    # Ensure exact same feature columns and order used during training.
+    processed_data = processed_data.reindex(
+        columns=feature_columns,
+        fill_value=0,
+    )
 
     results = new_data.copy()
 
-    results["podium_prediction"] = predictions
-    results["podium_probability"] = probabilities.round(4)
+    for target, model in models.items():
+        predictions = model.predict(processed_data)
+        probabilities = model.predict_proba(processed_data)[:, 1]
+
+        results[f"{target}_prediction"] = predictions
+        results[f"{target}_probability"] = probabilities.round(4)
+
+    # podium probability should not be higher than top 10 probability.
+    if {
+        "podium_finish_probability",
+        "top_10_finish_probability",
+    }.issubset(results.columns):
+        results["top_10_finish_probability"] = results[
+            ["top_10_finish_probability", "podium_finish_probability"]
+        ].max(axis=1)
 
     return results
