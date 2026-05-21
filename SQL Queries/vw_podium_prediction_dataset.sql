@@ -18,6 +18,7 @@ SELECT
     qf.best_quali_ms,
     qf.qualifying_gap_to_pole_ms,
     qf.teammate_qualifying_gap_ms,
+	pb.status,
 
     -- driver recent form
     drf.avg_finish_last_5,
