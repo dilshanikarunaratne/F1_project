@@ -1,13 +1,16 @@
 import os
 import joblib
 import pandas as pd
+import sys
 
-from preprocessing import preprocess_data
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
 
+from src.preprocessing import preprocess_data
 
-# -------------------------------------------------------
-# Project paths
-# -------------------------------------------------------
+RAW_DATA_PATH = os.path.join(BASE_DIR, "data", "raw", "podium_prediction_dataset.csv")
+
+df = pd.read_csv(RAW_DATA_PATH)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 MODEL_PATH = os.path.join(
@@ -19,8 +22,6 @@ FEATURES_PATH = os.path.join(
 )
 
 
-
-# Main prediction function
 def make_predictions(new_data):
     model_bundle = joblib.load(MODEL_PATH)
 
@@ -32,8 +33,10 @@ def make_predictions(new_data):
 
     processed_data = preprocess_data(new_data.copy())
 
-    # Drop known target columns if they exist in incoming data.
+    # Drop target/result columns if they exist in incoming data.
     target_columns = [
+        "finish_position",
+        "position",
         "podium_finish",
         "top_10_finish",
         "dnf",
@@ -44,7 +47,6 @@ def make_predictions(new_data):
         errors="ignore",
     )
 
-    # Ensure exact same feature columns and order used during training.
     processed_data = processed_data.reindex(
         columns=feature_columns,
         fill_value=0,
@@ -61,7 +63,6 @@ def make_predictions(new_data):
         results[f"{target}_prediction"] = predictions
         results[f"{target}_probability"] = probabilities.round(4)
 
-    # podium probability should not be higher than top 10 probability.
     if {
         "podium_finish_probability",
         "top_10_finish_probability",

@@ -34,10 +34,6 @@ OUTPUT_DATA_PATH = os.path.join(PROCESSED_DIR, "race_outcome_predictions_output.
 
 
 FEATURES = [
-    "grid",
-    "qualifying_position",
-    "qualifying_gap_to_pole_ms",
-    "teammate_qualifying_gap_ms",
     "avg_finish_last_5",
     "podiums_last_5",
     "avg_qualifying_last_5",
@@ -188,8 +184,8 @@ def train_model():
     if missing_targets:
         raise ValueError(f"Missing target columns: {missing_targets}")
 
-    train_df = df[df["year"] < 2022].copy()
-    test_df = df[df["year"] >= 2022].copy()
+    train_df = df[(df["year"] < 2020) & (df["year"] >= 2010)].copy()
+    test_df = df[(df["year"] >= 2020) & (df["year"] <= 2022)].copy()
 
     X_train = train_df[FEATURES]
     X_test = test_df[FEATURES]
