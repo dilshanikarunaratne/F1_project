@@ -1,0 +1,301 @@
+season,round,race_id,race_name,race_date,driver_id,driver_code,driver_name,constructor_id,constructor_name,position,position_text,grid,laps,status,points
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,perez,PER,Sergio Pérez,red_bull,Red Bull,1,1,2,17,Finished,8
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,2,2,1,17,Finished,7
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,3,3,3,17,Finished,6
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,russell,RUS,George Russell,mercedes,Mercedes,4,4,4,17,Finished,5
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,sainz,SAI,Carlos Sainz,ferrari,Ferrari,5,5,5,17,Finished,4
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,6,6,8,17,Finished,3
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,7,7,6,17,Finished,2
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,stroll,STR,Lance Stroll,aston_martin,Aston Martin,8,8,9,17,Finished,1
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,albon,ALB,Alexander Albon,williams,Williams,9,9,7,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,piastri,PIA,Oscar Piastri,mclaren,McLaren,10,10,11,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,11,11,13,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,zhou,ZHO,Guanyu Zhou,alfa,Alfa Romeo,12,12,14,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,13,13,17,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,de_vries,DEV,Nyck de Vries,alphatauri,AlphaTauri,14,14,18,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,15,15,12,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,bottas,BOT,Valtteri Bottas,alfa,Alfa Romeo,16,16,15,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,norris,NOR,Lando Norris,mclaren,McLaren,17,17,10,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,18,18,0,17,Finished,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,tsunoda,TSU,Yuki Tsunoda,alphatauri,AlphaTauri,19,R,16,2,Collision damage,0
+2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,sargeant,SAR,Logan Sargeant,williams,Williams,20,R,0,0,Accident,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,24,Finished,8
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,perez,PER,Sergio Pérez,red_bull,Red Bull,2,2,2,24,Finished,7
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,sainz,SAI,Carlos Sainz,ferrari,Ferrari,3,3,5,24,Finished,6
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,stroll,STR,Lance Stroll,aston_martin,Aston Martin,4,4,7,24,Finished,5
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,5,5,6,24,Finished,4
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,6,6,4,24,Finished,3
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,7,7,8,24,Finished,2
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,russell,RUS,George Russell,mercedes,Mercedes,8,8,15,24,Finished,1
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,norris,NOR,Lando Norris,mclaren,McLaren,9,9,3,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,10,10,18,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,piastri,PIA,Oscar Piastri,mclaren,McLaren,11,11,17,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,12,12,9,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,albon,ALB,Alexander Albon,williams,Williams,13,13,11,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,14,14,10,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,15,15,12,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,tsunoda,TSU,Yuki Tsunoda,alphatauri,AlphaTauri,16,16,13,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,de_vries,DEV,Nyck de Vries,alphatauri,AlphaTauri,17,17,14,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,sargeant,SAR,Logan Sargeant,williams,Williams,18,18,20,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,zhou,ZHO,Guanyu Zhou,alfa,Alfa Romeo,19,19,16,24,Finished,0
+2023,9,2023_9,Austrian Grand Prix,2023-07-02,bottas,BOT,Valtteri Bottas,alfa,Alfa Romeo,20,20,19,24,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,11,Finished,8
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,piastri,PIA,Oscar Piastri,mclaren,McLaren,2,2,2,11,Finished,7
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,3,3,6,11,Finished,6
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,sainz,SAI,Carlos Sainz,ferrari,Ferrari,4,4,3,11,Finished,5
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,5,5,4,11,Finished,4
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,norris,NOR,Lando Norris,mclaren,McLaren,6,6,5,11,Finished,3
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,7,7,7,11,Finished,2
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,russell,RUS,George Russell,mercedes,Mercedes,8,8,10,11,Finished,1
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,9,9,9,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,ricciardo,RIC,Daniel Ricciardo,alphatauri,AlphaTauri,10,10,11,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,stroll,STR,Lance Stroll,aston_martin,Aston Martin,11,11,14,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,albon,ALB,Alexander Albon,williams,Williams,12,12,12,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,bottas,BOT,Valtteri Bottas,alfa,Alfa Romeo,13,13,17,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,14,14,18,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,zhou,ZHO,Guanyu Zhou,alfa,Alfa Romeo,15,15,19,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,sargeant,SAR,Logan Sargeant,williams,Williams,16,16,13,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,17,17,20,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,tsunoda,TSU,Yuki Tsunoda,alphatauri,AlphaTauri,18,18,16,11,Finished,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,perez,PER,Sergio Pérez,red_bull,Red Bull,19,R,8,8,Collision damage,0
+2023,12,2023_12,Belgian Grand Prix,2023-07-30,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,20,R,15,2,Accident,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,piastri,PIA,Oscar Piastri,mclaren,McLaren,1,1,1,19,Finished,8
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,2,2,3,19,Finished,7
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,norris,NOR,Lando Norris,mclaren,McLaren,3,3,2,19,Finished,6
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,russell,RUS,George Russell,mercedes,Mercedes,4,4,4,19,Finished,5
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,5,5,12,19,Finished,4
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,sainz,SAI,Carlos Sainz,ferrari,Ferrari,6,6,5,19,Finished,3
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,albon,ALB,Alexander Albon,williams,Williams,7,7,17,19,Finished,2
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,8,8,9,19,Finished,1
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,9,9,11,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,bottas,BOT,Valtteri Bottas,alfa,Alfa Romeo,10,10,13,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,tsunoda,TSU,Yuki Tsunoda,alphatauri,AlphaTauri,11,11,18,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,12,12,6,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,stroll,STR,Lance Stroll,aston_martin,Aston Martin,13,13,16,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,14,14,19,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,zhou,ZHO,Guanyu Zhou,alfa,Alfa Romeo,15,15,15,19,Finished,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,16,R,7,11,Retired,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,17,R,10,10,Retired,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,perez,PER,Sergio Pérez,red_bull,Red Bull,18,R,8,10,Retired,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,sargeant,SAR,Logan Sargeant,williams,Williams,19,R,20,2,Retired,0
+2023,17,2023_17,Qatar Grand Prix,2023-10-08,lawson,LAW,Liam Lawson,alphatauri,AlphaTauri,20,R,14,0,Retired,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,19,Finished,8
+2023,18,2023_18,United States Grand Prix,2023-10-22,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,2,2,3,19,Finished,7
+2023,18,2023_18,United States Grand Prix,2023-10-22,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,3,3,2,19,Finished,6
+2023,18,2023_18,United States Grand Prix,2023-10-22,norris,NOR,Lando Norris,mclaren,McLaren,4,4,4,19,Finished,5
+2023,18,2023_18,United States Grand Prix,2023-10-22,perez,PER,Sergio Pérez,red_bull,Red Bull,5,5,7,19,Finished,4
+2023,18,2023_18,United States Grand Prix,2023-10-22,sainz,SAI,Carlos Sainz,ferrari,Ferrari,6,6,6,19,Finished,3
+2023,18,2023_18,United States Grand Prix,2023-10-22,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,7,7,9,19,Finished,2
+2023,18,2023_18,United States Grand Prix,2023-10-22,russell,RUS,George Russell,mercedes,Mercedes,8,8,11,19,Finished,1
+2023,18,2023_18,United States Grand Prix,2023-10-22,albon,ALB,Alexander Albon,williams,Williams,9,9,8,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,piastri,PIA,Oscar Piastri,mclaren,McLaren,10,10,5,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,11,11,13,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,ricciardo,RIC,Daniel Ricciardo,alphatauri,AlphaTauri,12,12,10,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,13,13,12,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,tsunoda,TSU,Yuki Tsunoda,alphatauri,AlphaTauri,14,14,19,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,15,15,16,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,bottas,BOT,Valtteri Bottas,alfa,Alfa Romeo,16,16,18,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,zhou,ZHO,Guanyu Zhou,alfa,Alfa Romeo,17,17,15,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,18,18,17,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,sargeant,SAR,Logan Sargeant,williams,Williams,19,19,20,19,Finished,0
+2023,18,2023_18,United States Grand Prix,2023-10-22,stroll,STR,Lance Stroll,aston_martin,Aston Martin,20,R,14,16,Brakes,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,4,19,Finished,8
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,2,2,2,19,Finished,7
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,perez,PER,Sergio Pérez,red_bull,Red Bull,3,3,6,19,Finished,6
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,4,4,7,19,Finished,5
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,sainz,SAI,Carlos Sainz,ferrari,Ferrari,5,5,5,19,Finished,4
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,norris,NOR,Lando Norris,mclaren,McLaren,6,6,1,19,Finished,3
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,piastri,PIA,Oscar Piastri,mclaren,McLaren,7,7,8,19,Finished,2
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,russell,RUS,George Russell,mercedes,Mercedes,8,8,11,19,Finished,1
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,zhou,ZHO,Guanyu Zhou,sauber,Sauber,9,9,10,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,10,10,12,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,ricciardo,RIC,Daniel Ricciardo,rb,RB F1 Team,11,11,14,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,bottas,BOT,Valtteri Bottas,sauber,Sauber,12,12,9,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,13,13,17,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,stroll,STR,Lance Stroll,aston_martin,Aston Martin,14,14,15,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,15,15,16,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,16,16,19,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,albon,ALB,Alexander Albon,williams,Williams,17,17,18,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,sargeant,SAR,Logan Sargeant,williams,Williams,18,18,20,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,19,19,13,19,Finished,0
+2024,5,2024_5,Chinese Grand Prix,2024-04-21,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,20,20,3,17,Retired,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,19,Finished,8
+2024,6,2024_6,Miami Grand Prix,2024-05-05,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,2,2,2,19,Finished,7
+2024,6,2024_6,Miami Grand Prix,2024-05-05,perez,PER,Sergio Pérez,red_bull,Red Bull,3,3,3,19,Finished,6
+2024,6,2024_6,Miami Grand Prix,2024-05-05,ricciardo,RIC,Daniel Ricciardo,rb,RB F1 Team,4,4,4,19,Finished,5
+2024,6,2024_6,Miami Grand Prix,2024-05-05,sainz,SAI,Carlos Sainz,ferrari,Ferrari,5,5,5,19,Finished,4
+2024,6,2024_6,Miami Grand Prix,2024-05-05,piastri,PIA,Oscar Piastri,mclaren,McLaren,6,6,6,19,Finished,3
+2024,6,2024_6,Miami Grand Prix,2024-05-05,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,7,7,10,19,Finished,2
+2024,6,2024_6,Miami Grand Prix,2024-05-05,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,8,8,15,19,Finished,1
+2024,6,2024_6,Miami Grand Prix,2024-05-05,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,9,9,16,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,sargeant,SAR,Logan Sargeant,williams,Williams,10,10,18,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,zhou,ZHO,Guanyu Zhou,sauber,Sauber,11,11,17,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,russell,RUS,George Russell,mercedes,Mercedes,12,12,11,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,albon,ALB,Alexander Albon,williams,Williams,13,13,20,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,bottas,BOT,Valtteri Bottas,sauber,Sauber,14,14,19,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,15,15,13,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,16,16,12,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,17,17,8,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,18,18,14,19,Finished,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,stroll,STR,Lance Stroll,aston_martin,Aston Martin,19,R,7,1,Retired,0
+2024,6,2024_6,Miami Grand Prix,2024-05-05,norris,NOR,Lando Norris,mclaren,McLaren,20,R,9,0,Retired,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,23,Finished,8
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,piastri,PIA,Oscar Piastri,mclaren,McLaren,2,2,3,23,Finished,7
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,norris,NOR,Lando Norris,mclaren,McLaren,3,3,2,23,Finished,6
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,russell,RUS,George Russell,mercedes,Mercedes,4,4,4,23,Finished,5
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,sainz,SAI,Carlos Sainz,ferrari,Ferrari,5,5,5,23,Finished,4
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,6,6,6,23,Finished,3
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,7,7,10,23,Finished,2
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,perez,PER,Sergio Pérez,red_bull,Red Bull,8,8,7,23,Finished,1
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,9,9,11,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,stroll,STR,Lance Stroll,aston_martin,Aston Martin,10,10,12,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,11,11,8,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,12,12,9,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,13,13,14,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,ricciardo,RIC,Daniel Ricciardo,rb,RB F1 Team,14,14,16,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,15,15,13,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,sargeant,SAR,Logan Sargeant,williams,Williams,16,16,15,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,albon,ALB,Alexander Albon,williams,Williams,17,17,20,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,bottas,BOT,Valtteri Bottas,sauber,Sauber,18,18,18,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,19,19,17,23,Finished,0
+2024,11,2024_11,Austrian Grand Prix,2024-06-30,zhou,ZHO,Guanyu Zhou,sauber,Sauber,20,20,19,23,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,19,Finished,8
+2024,19,2024_19,United States Grand Prix,2024-10-20,sainz,SAI,Carlos Sainz,ferrari,Ferrari,2,2,5,19,Finished,7
+2024,19,2024_19,United States Grand Prix,2024-10-20,norris,NOR,Lando Norris,mclaren,McLaren,3,3,4,19,Finished,6
+2024,19,2024_19,United States Grand Prix,2024-10-20,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,4,4,3,19,Finished,5
+2024,19,2024_19,United States Grand Prix,2024-10-20,russell,RUS,George Russell,mercedes,Mercedes,5,5,2,19,Finished,4
+2024,19,2024_19,United States Grand Prix,2024-10-20,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,6,6,7,19,Finished,3
+2024,19,2024_19,United States Grand Prix,2024-10-20,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,7,7,8,19,Finished,2
+2024,19,2024_19,United States Grand Prix,2024-10-20,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,8,8,6,19,Finished,1
+2024,19,2024_19,United States Grand Prix,2024-10-20,perez,PER,Sergio Pérez,red_bull,Red Bull,9,9,11,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,piastri,PIA,Oscar Piastri,mclaren,McLaren,10,10,16,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,11,11,9,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,colapinto,COL,Franco Colapinto,williams,Williams,12,12,10,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,stroll,STR,Lance Stroll,aston_martin,Aston Martin,13,13,13,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,14,14,12,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,15,15,17,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,lawson,LAW,Liam Lawson,rb,RB F1 Team,16,16,15,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,albon,ALB,Alexander Albon,williams,Williams,17,17,20,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,18,18,14,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,zhou,ZHO,Guanyu Zhou,sauber,Sauber,19,19,19,19,Finished,0
+2024,19,2024_19,United States Grand Prix,2024-10-20,bottas,BOT,Valtteri Bottas,sauber,Sauber,20,20,18,19,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,norris,NOR,Lando Norris,mclaren,McLaren,1,1,2,24,Finished,8
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,piastri,PIA,Oscar Piastri,mclaren,McLaren,2,2,1,24,Finished,7
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,3,3,3,24,Finished,6
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,4,4,4,24,Finished,5
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,sainz,SAI,Carlos Sainz,ferrari,Ferrari,5,5,5,24,Finished,4
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,russell,RUS,George Russell,mercedes,Mercedes,6,6,6,24,Finished,3
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,7,7,7,24,Finished,2
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,perez,PER,Sergio Pérez,red_bull,Red Bull,8,8,13,24,Finished,1
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,lawson,LAW,Liam Lawson,rb,RB F1 Team,9,9,8,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,albon,ALB,Alexander Albon,williams,Williams,10,10,9,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,11,11,11,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,colapinto,COL,Franco Colapinto,williams,Williams,12,12,14,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,13,13,16,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,14,14,10,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,15,15,17,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,bottas,BOT,Valtteri Bottas,sauber,Sauber,16,16,15,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,zhou,ZHO,Guanyu Zhou,sauber,Sauber,17,17,20,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,18,18,18,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,stroll,STR,Lance Stroll,aston_martin,Aston Martin,19,19,19,24,Finished,0
+2024,21,2024_21,São Paulo Grand Prix,2024-11-03,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,20,R,12,19,Retired,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,1,1,1,19,Finished,8
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,piastri,PIA,Oscar Piastri,mclaren,McLaren,2,2,3,19,Finished,7
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,3,3,2,19,Finished,6
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,russell,RUS,George Russell,mercedes,Mercedes,4,4,5,19,Finished,5
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,5,5,4,19,Finished,4
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,6,6,8,19,Finished,3
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,7,7,7,19,Finished,2
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,norris,NOR,Lando Norris,mclaren,McLaren,8,8,6,19,Finished,1
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,stroll,STR,Lance Stroll,aston_martin,Aston Martin,9,9,10,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,10,10,11,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,albon,ALB,Alexander Albon,williams,Williams,11,11,9,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,12,12,17,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,13,13,15,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,lawson,LAW,Liam Lawson,red_bull,Red Bull,14,14,19,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,15,15,12,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,16,16,18,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,sainz,SAI,Carlos Sainz,williams,Williams,17,17,13,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,18,18,14,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,19,19,20,19,Finished,0
+2025,2,2025_2,Chinese Grand Prix,2025-03-23,doohan,DOO,Jack Doohan,alpine,Alpine F1 Team,20,20,16,19,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,norris,NOR,Lando Norris,mclaren,McLaren,1,1,3,18,Finished,8
+2025,6,2025_6,Miami Grand Prix,2025-05-04,piastri,PIA,Oscar Piastri,mclaren,McLaren,2,2,2,18,Finished,7
+2025,6,2025_6,Miami Grand Prix,2025-05-04,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,3,3,7,18,Finished,6
+2025,6,2025_6,Miami Grand Prix,2025-05-04,russell,RUS,George Russell,mercedes,Mercedes,4,4,5,18,Finished,5
+2025,6,2025_6,Miami Grand Prix,2025-05-04,stroll,STR,Lance Stroll,aston_martin,Aston Martin,5,5,16,18,Finished,4
+2025,6,2025_6,Miami Grand Prix,2025-05-04,tsunoda,TSU,Yuki Tsunoda,red_bull,Red Bull,6,6,20,18,Finished,3
+2025,6,2025_6,Miami Grand Prix,2025-05-04,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,7,7,1,18,Finished,2
+2025,6,2025_6,Miami Grand Prix,2025-05-04,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,8,8,13,18,Finished,1
+2025,6,2025_6,Miami Grand Prix,2025-05-04,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,9,9,11,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,10,10,9,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,albon,ALB,Alexander Albon,williams,Williams,11,11,8,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,12,12,12,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,lawson,LAW,Liam Lawson,rb,RB F1 Team,13,13,14,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,14,14,19,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,15,15,18,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,doohan,DOO,Jack Doohan,alpine,Alpine F1 Team,16,16,17,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,17,17,4,18,Finished,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,18,R,10,13,Retired,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,sainz,SAI,Carlos Sainz,williams,Williams,19,R,15,12,Retired,0
+2025,6,2025_6,Miami Grand Prix,2025-05-04,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,20,R,6,0,Retired,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,2,15,Finished,8
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,piastri,PIA,Oscar Piastri,mclaren,McLaren,2,2,1,15,Finished,7
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,norris,NOR,Lando Norris,mclaren,McLaren,3,3,3,15,Finished,6
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,4,4,4,15,Finished,5
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,5,5,5,15,Finished,4
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,sainz,SAI,Carlos Sainz,williams,Williams,6,6,6,15,Finished,3
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,7,7,7,15,Finished,2
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,8,8,9,15,Finished,1
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,9,9,10,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,lawson,LAW,Liam Lawson,rb,RB F1 Team,10,10,11,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,tsunoda,TSU,Yuki Tsunoda,red_bull,Red Bull,11,11,12,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,russell,RUS,George Russell,mercedes,Mercedes,12,12,13,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,stroll,STR,Lance Stroll,aston_martin,Aston Martin,13,13,15,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,14,14,14,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,15,15,18,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,albon,ALB,Alexander Albon,williams,Williams,16,16,16,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,17,17,19,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,18,18,17,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,colapinto,COL,Franco Colapinto,alpine,Alpine F1 Team,19,19,20,15,Finished,0
+2025,13,2025_13,Belgian Grand Prix,2025-07-27,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,20,R,8,12,Retired,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,1,19,Finished,8
+2025,19,2025_19,United States Grand Prix,2025-10-19,russell,RUS,George Russell,mercedes,Mercedes,2,2,5,19,Finished,7
+2025,19,2025_19,United States Grand Prix,2025-10-19,sainz,SAI,Carlos Sainz,williams,Williams,3,3,7,19,Finished,6
+2025,19,2025_19,United States Grand Prix,2025-10-19,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,4,4,8,19,Finished,5
+2025,19,2025_19,United States Grand Prix,2025-10-19,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,5,5,10,19,Finished,4
+2025,19,2025_19,United States Grand Prix,2025-10-19,albon,ALB,Alexander Albon,williams,Williams,6,6,9,19,Finished,3
+2025,19,2025_19,United States Grand Prix,2025-10-19,tsunoda,TSU,Yuki Tsunoda,red_bull,Red Bull,7,7,18,19,Finished,2
+2025,19,2025_19,United States Grand Prix,2025-10-19,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,8,8,11,19,Finished,1
+2025,19,2025_19,United States Grand Prix,2025-10-19,lawson,LAW,Liam Lawson,rb,RB F1 Team,9,9,15,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,10,10,13,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,11,11,20,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,12,12,12,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,13,13,4,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,colapinto,COL,Franco Colapinto,alpine,Alpine F1 Team,14,14,17,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,15,15,16,19,Finished,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,16,R,19,15,Retired,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,stroll,STR,Lance Stroll,aston_martin,Aston Martin,17,R,14,15,Retired,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,norris,NOR,Lando Norris,mclaren,McLaren,18,R,2,0,Retired,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,piastri,PIA,Oscar Piastri,mclaren,McLaren,19,R,3,0,Retired,0
+2025,19,2025_19,United States Grand Prix,2025-10-19,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,20,R,6,0,Retired,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,norris,NOR,Lando Norris,mclaren,McLaren,1,1,1,24,Finished,8
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,2,2,2,24,Finished,7
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,russell,RUS,George Russell,mercedes,Mercedes,3,3,4,24,Finished,6
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,4,4,6,24,Finished,5
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,5,5,8,24,Finished,4
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,6,6,5,24,Finished,3
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,7,7,11,24,Finished,2
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,8,8,13,24,Finished,1
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,stroll,STR,Lance Stroll,aston_martin,Aston Martin,9,9,7,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,10,10,9,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,11,11,18,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,12,12,15,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,tsunoda,TSU,Yuki Tsunoda,red_bull,Red Bull,13,13,19,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,sainz,SAI,Carlos Sainz,williams,Williams,14,14,20,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,15,15,10,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,lawson,LAW,Liam Lawson,rb,RB F1 Team,16,16,17,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,albon,ALB,Alexander Albon,williams,Williams,17,17,12,24,Finished,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,18,18,14,23,Retired,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,piastri,PIA,Oscar Piastri,mclaren,McLaren,19,R,3,5,Retired,0
+2025,21,2025_21,São Paulo Grand Prix,2025-11-09,colapinto,COL,Franco Colapinto,alpine,Alpine F1 Team,20,R,16,5,Retired,0

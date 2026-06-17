@@ -1,0 +1,68 @@
+season,round,driver_id,driver_code,driver_name,constructor_id,constructor_name,standing_position,standing_position_text,points,wins
+2023,22,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,575,19
+2023,22,perez,PER,Sergio Pérez,red_bull,Red Bull,2,2,285,2
+2023,22,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,3,3,234,0
+2023,22,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,4,4,206,0
+2023,22,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,5,5,206,0
+2023,22,norris,NOR,Lando Norris,mclaren,McLaren,6,6,205,0
+2023,22,sainz,SAI,Carlos Sainz,ferrari,Ferrari,7,7,200,1
+2023,22,russell,RUS,George Russell,mercedes,Mercedes,8,8,175,0
+2023,22,piastri,PIA,Oscar Piastri,mclaren,McLaren,9,9,97,0
+2023,22,stroll,STR,Lance Stroll,aston_martin,Aston Martin,10,10,74,0
+2023,22,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,11,11,62,0
+2023,22,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,12,12,58,0
+2023,22,albon,ALB,Alexander Albon,williams,Williams,13,13,27,0
+2023,22,tsunoda,TSU,Yuki Tsunoda,alphatauri,AlphaTauri,14,14,17,0
+2023,22,bottas,BOT,Valtteri Bottas,alfa,Alfa Romeo,15,15,10,0
+2023,22,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,16,16,9,0
+2023,22,ricciardo,RIC,Daniel Ricciardo,alphatauri,AlphaTauri,17,17,6,0
+2023,22,zhou,ZHO,Guanyu Zhou,alfa,Alfa Romeo,18,18,6,0
+2023,22,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,19,19,3,0
+2023,22,lawson,LAW,Liam Lawson,alphatauri,AlphaTauri,20,20,2,0
+2023,22,sargeant,SAR,Logan Sargeant,williams,Williams,21,21,1,0
+2023,22,de_vries,DEV,Nyck de Vries,alphatauri,AlphaTauri,22,22,0,0
+2024,24,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,1,1,437,9
+2024,24,norris,NOR,Lando Norris,mclaren,McLaren,2,2,374,4
+2024,24,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,3,3,356,3
+2024,24,piastri,PIA,Oscar Piastri,mclaren,McLaren,4,4,292,2
+2024,24,sainz,SAI,Carlos Sainz,ferrari,Ferrari,5,5,290,2
+2024,24,russell,RUS,George Russell,mercedes,Mercedes,6,6,245,2
+2024,24,hamilton,HAM,Lewis Hamilton,mercedes,Mercedes,7,7,223,2
+2024,24,perez,PER,Sergio Pérez,red_bull,Red Bull,8,8,152,0
+2024,24,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,9,9,70,0
+2024,24,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,10,10,42,0
+2024,24,hulkenberg,HUL,Nico Hülkenberg,haas,Haas F1 Team,11,11,41,0
+2024,24,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,12,12,30,0
+2024,24,stroll,STR,Lance Stroll,aston_martin,Aston Martin,13,13,24,0
+2024,24,ocon,OCO,Esteban Ocon,alpine,Alpine F1 Team,14,14,23,0
+2024,24,kevin_magnussen,MAG,Kevin Magnussen,haas,Haas F1 Team,15,15,16,0
+2024,24,albon,ALB,Alexander Albon,williams,Williams,16,16,12,0
+2024,24,ricciardo,RIC,Daniel Ricciardo,rb,RB F1 Team,17,17,12,0
+2024,24,bearman,BEA,Oliver Bearman,ferrari,Ferrari,18,18,7,0
+2024,24,colapinto,COL,Franco Colapinto,williams,Williams,19,19,5,0
+2024,24,zhou,ZHO,Guanyu Zhou,sauber,Sauber,20,20,4,0
+2024,24,lawson,LAW,Liam Lawson,rb,RB F1 Team,21,21,4,0
+2024,24,bottas,BOT,Valtteri Bottas,sauber,Sauber,22,22,0,0
+2024,24,sargeant,SAR,Logan Sargeant,williams,Williams,23,23,0,0
+2024,24,doohan,DOO,Jack Doohan,alpine,Alpine F1 Team,24,24,0,0
+2025,24,norris,NOR,Lando Norris,mclaren,McLaren,1,1,423,7
+2025,24,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,2,2,421,8
+2025,24,piastri,PIA,Oscar Piastri,mclaren,McLaren,3,3,410,7
+2025,24,russell,RUS,George Russell,mercedes,Mercedes,4,4,319,2
+2025,24,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,5,5,242,0
+2025,24,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,6,6,156,0
+2025,24,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,7,7,150,0
+2025,24,albon,ALB,Alexander Albon,williams,Williams,8,8,73,0
+2025,24,sainz,SAI,Carlos Sainz,williams,Williams,9,9,64,0
+2025,24,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,10,10,56,0
+2025,24,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,11,11,51,0
+2025,24,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,12,12,51,0
+2025,24,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,13,13,41,0
+2025,24,lawson,LAW,Liam Lawson,red_bull,Red Bull,14,14,38,0
+2025,24,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,15,15,38,0
+2025,24,stroll,STR,Lance Stroll,aston_martin,Aston Martin,16,16,33,0
+2025,24,tsunoda,TSU,Yuki Tsunoda,rb,RB F1 Team,17,17,33,0
+2025,24,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,18,18,22,0
+2025,24,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,19,19,19,0
+2025,24,colapinto,COL,Franco Colapinto,alpine,Alpine F1 Team,20,20,0,0
+2025,24,doohan,DOO,Jack Doohan,alpine,Alpine F1 Team,21,21,0,0
