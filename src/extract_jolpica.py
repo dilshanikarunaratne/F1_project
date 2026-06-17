@@ -387,6 +387,7 @@ if __name__ == "__main__":
     START_SEASON = 2023
     END_SEASON = 2025
 
+def run_extraction(start_season=2023, end_season=2025):
     all_data = {
         "races": [],
         "drivers": [],
@@ -400,7 +401,7 @@ if __name__ == "__main__":
         "lap_times": [],
     }
 
-    for season in range(START_SEASON, END_SEASON + 1):
+    for season in range(start_season, end_season + 1):
         season_data = extract_season(season)
 
         for key, df in season_data.items():
@@ -430,3 +431,10 @@ if __name__ == "__main__":
     save_csv(final_dfs["status"], "raw_status.csv")
 
     print("\nAll extraction completed successfully.")
+
+
+if __name__ == "__main__":
+    run_extraction(start_season=2023, end_season=2025)   
+        
+
+        

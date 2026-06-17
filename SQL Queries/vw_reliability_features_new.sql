@@ -4,10 +4,12 @@ WITH reliability_base AS (
         res.race_id,
         res.driver_id,
         res.constructor_id,
-        r.season,
-        r.round,
+        TRY_CONVERT(INT, r.season) AS season,
+        TRY_CONVERT(INT, r.round) AS round,
         CASE
-            WHEN res.status = 'Finished' OR res.status LIKE '+%Lap%' OR res.status LIKE '+%Laps%'
+            WHEN res.status = 'Finished'
+              OR res.status LIKE '+%Lap%'
+              OR res.status LIKE '+%Laps%'
             THEN 0
             ELSE 1
         END AS dnf_flag
@@ -19,7 +21,6 @@ driver_reliability AS (
     SELECT
         race_id,
         driver_id,
-
         AVG(CAST(dnf_flag AS FLOAT)) OVER (
             PARTITION BY driver_id
             ORDER BY season, round
@@ -27,17 +28,30 @@ driver_reliability AS (
         ) AS driver_dnf_rate_last_10
     FROM reliability_base
 ),
+constructor_race AS (
+    SELECT
+        race_id,
+        constructor_id,
+        season,
+        round,
+        AVG(CAST(dnf_flag AS FLOAT)) AS constructor_dnf_flag
+    FROM reliability_base
+    GROUP BY
+        race_id,
+        constructor_id,
+        season,
+        round
+),
 constructor_reliability AS (
     SELECT
         race_id,
         constructor_id,
-
-        AVG(CAST(dnf_flag AS FLOAT)) OVER (
+        AVG(constructor_dnf_flag) OVER (
             PARTITION BY constructor_id
             ORDER BY season, round
             ROWS BETWEEN 20 PRECEDING AND 1 PRECEDING
         ) AS constructor_dnf_rate_last_20
-    FROM reliability_base
+    FROM constructor_race
 )
 SELECT
     rb.race_id,
