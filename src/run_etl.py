@@ -6,10 +6,10 @@ import os
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SQL_DIR = os.path.join(BASE_DIR, "sql")
+SQL_DIR = os.path.join(BASE_DIR, "SQL")
 
 
-SERVER = r"localhost\SQLEXPRESS"
+SERVER = r"localhost"
 DATABASE = "f1_data"
 DRIVER = "ODBC Driver 17 for SQL Server"
 
@@ -57,15 +57,19 @@ def run_etl():
     print("Starting F1 ETL pipeline...")
 
     # 1. Extract API data
-    run_extraction(start_season=2023, end_season=2025)
+    run_extraction(start_season=2025, end_season=2026)
 
     # 2. Load raw CSV files into SQL raw tables
     load_all_raw_tables()
 
     # 3. Create / refresh SQL views
-    run_sql_file("02_create_podium_base.sql")
-    run_sql_file("03_create_feature_views.sql")
-    run_sql_file("04_create_prediction_dataset.sql")
+    run_sql_file("vw_driver_recent_form new.sql")
+    run_sql_file("vw_constructor_recent_form new.sql")
+    run_sql_file("vw_qualifying_features_new.sql")
+    run_sql_file("vw_pit_stop_features_new.sql")
+    run_sql_file("vw_reliability_features_new.sql")
+    run_sql_file("podium_base_table_new.sql")
+    run_sql_file("vw_podium_prediction_dataset_new.sql")
 
     # 4. Validate final ML dataset
     validate_prediction_dataset()

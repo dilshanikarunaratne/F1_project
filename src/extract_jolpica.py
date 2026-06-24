@@ -21,7 +21,7 @@ def fetch_json(url):
     response = requests.get(url, timeout=30)
     response.raise_for_status()
 
-    time.sleep(1)
+    time.sleep(3)
     return response.json()
 
 
@@ -384,10 +384,10 @@ def extract_season(season):
 # Main
 # -----------------------------
 if __name__ == "__main__":
-    START_SEASON = 2023
-    END_SEASON = 2025
+    START_SEASON = 2024
+    END_SEASON = 2026
 
-def run_extraction(start_season=2023, end_season=2025):
+def run_extraction(start_season=2025, end_season=2026):
     all_data = {
         "races": [],
         "drivers": [],
@@ -434,7 +434,7 @@ def run_extraction(start_season=2023, end_season=2025):
 
 
 if __name__ == "__main__":
-    run_extraction(start_season=2023, end_season=2025)   
+    run_extraction(start_season=2025, end_season=2026)   
         
 
         

@@ -1,24 +1,4 @@
 season,constructor_id,constructor_name,nationality,url
-2023,alfa,Alfa Romeo,Swiss,https://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One
-2023,alphatauri,AlphaTauri,Italian,https://en.wikipedia.org/wiki/Scuderia_AlphaTauri
-2023,alpine,Alpine F1 Team,French,https://en.wikipedia.org/wiki/Alpine_F1_Team
-2023,aston_martin,Aston Martin,British,https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One
-2023,ferrari,Ferrari,Italian,https://en.wikipedia.org/wiki/Scuderia_Ferrari
-2023,haas,Haas F1 Team,American,https://en.wikipedia.org/wiki/Haas_F1_Team
-2023,mclaren,McLaren,British,https://en.wikipedia.org/wiki/McLaren
-2023,mercedes,Mercedes,German,https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One
-2023,red_bull,Red Bull,Austrian,https://en.wikipedia.org/wiki/Red_Bull_Racing
-2023,williams,Williams,British,https://en.wikipedia.org/wiki/Williams_Racing
-2024,alpine,Alpine F1 Team,French,https://en.wikipedia.org/wiki/Alpine_F1_Team
-2024,aston_martin,Aston Martin,British,https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One
-2024,ferrari,Ferrari,Italian,https://en.wikipedia.org/wiki/Scuderia_Ferrari
-2024,haas,Haas F1 Team,American,https://en.wikipedia.org/wiki/Haas_F1_Team
-2024,mclaren,McLaren,British,https://en.wikipedia.org/wiki/McLaren
-2024,mercedes,Mercedes,German,https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One
-2024,rb,RB F1 Team,Italian,https://en.wikipedia.org/wiki/Racing_Bulls
-2024,red_bull,Red Bull,Austrian,https://en.wikipedia.org/wiki/Red_Bull_Racing
-2024,sauber,Sauber,Swiss,https://en.wikipedia.org/wiki/Sauber_Motorsport
-2024,williams,Williams,British,https://en.wikipedia.org/wiki/Williams_Racing
 2025,alpine,Alpine F1 Team,French,https://en.wikipedia.org/wiki/Alpine_F1_Team
 2025,aston_martin,Aston Martin,British,https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One
 2025,ferrari,Ferrari,Italian,https://en.wikipedia.org/wiki/Scuderia_Ferrari
@@ -29,3 +9,14 @@ season,constructor_id,constructor_name,nationality,url
 2025,red_bull,Red Bull,Austrian,https://en.wikipedia.org/wiki/Red_Bull_Racing
 2025,sauber,Sauber,Swiss,https://en.wikipedia.org/wiki/Sauber_Motorsport
 2025,williams,Williams,British,https://en.wikipedia.org/wiki/Williams_Racing
+2026,alpine,Alpine F1 Team,French,https://en.wikipedia.org/wiki/Alpine_F1_Team
+2026,aston_martin,Aston Martin,British,https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One
+2026,audi,Audi,German,https://en.wikipedia.org/wiki/Audi_in_Formula_One
+2026,cadillac,Cadillac F1 Team,American,https://en.wikipedia.org/wiki/Cadillac_in_Formula_One
+2026,ferrari,Ferrari,Italian,https://en.wikipedia.org/wiki/Scuderia_Ferrari
+2026,haas,Haas F1 Team,American,https://en.wikipedia.org/wiki/Haas_F1_Team
+2026,mclaren,McLaren,British,https://en.wikipedia.org/wiki/McLaren
+2026,mercedes,Mercedes,German,https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One
+2026,rb,RB F1 Team,Italian,https://en.wikipedia.org/wiki/Racing_Bulls
+2026,red_bull,Red Bull,Austrian,https://en.wikipedia.org/wiki/Red_Bull_Racing
+2026,williams,Williams,British,https://en.wikipedia.org/wiki/Williams_Racing

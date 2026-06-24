@@ -1,24 +1,4 @@
 season,round,constructor_id,constructor_name,constructor_nationality,standing_position,standing_position_text,points,wins
-2023,22,red_bull,Red Bull,Austrian,1,1,860,21
-2023,22,mercedes,Mercedes,German,2,2,409,0
-2023,22,ferrari,Ferrari,Italian,3,3,406,1
-2023,22,mclaren,McLaren,British,4,4,302,0
-2023,22,aston_martin,Aston Martin,British,5,5,280,0
-2023,22,alpine,Alpine F1 Team,French,6,6,120,0
-2023,22,williams,Williams,British,7,7,28,0
-2023,22,alphatauri,AlphaTauri,Italian,8,8,25,0
-2023,22,alfa,Alfa Romeo,Swiss,9,9,16,0
-2023,22,haas,Haas F1 Team,American,10,10,12,0
-2024,24,mclaren,McLaren,British,1,1,666,6
-2024,24,ferrari,Ferrari,Italian,2,2,652,5
-2024,24,red_bull,Red Bull,Austrian,3,3,589,9
-2024,24,mercedes,Mercedes,German,4,4,468,4
-2024,24,aston_martin,Aston Martin,British,5,5,94,0
-2024,24,alpine,Alpine F1 Team,French,6,6,65,0
-2024,24,haas,Haas F1 Team,American,7,7,58,0
-2024,24,rb,RB F1 Team,Italian,8,8,46,0
-2024,24,williams,Williams,British,9,9,17,0
-2024,24,sauber,Sauber,Swiss,10,10,4,0
 2025,24,mclaren,McLaren,British,1,1,833,14
 2025,24,mercedes,Mercedes,German,2,2,469,2
 2025,24,red_bull,Red Bull,Austrian,3,3,451,8
@@ -29,3 +9,14 @@ season,round,constructor_id,constructor_name,constructor_nationality,standing_po
 2025,24,haas,Haas F1 Team,American,8,8,79,0
 2025,24,sauber,Sauber,Swiss,9,9,70,0
 2025,24,alpine,Alpine F1 Team,French,10,10,22,0
+2026,7,mercedes,Mercedes,German,1,1,262,6
+2026,7,ferrari,Ferrari,Italian,2,2,190,1
+2026,7,mclaren,McLaren,British,3,3,141,0
+2026,7,red_bull,Red Bull,Austrian,4,4,89,0
+2026,7,alpine,Alpine F1 Team,French,5,5,57,0
+2026,7,rb,RB F1 Team,Italian,6,6,41,0
+2026,7,haas,Haas F1 Team,American,7,7,21,0
+2026,7,williams,Williams,British,8,8,11,0
+2026,7,audi,Audi,German,9,9,2,0
+2026,7,aston_martin,Aston Martin,British,10,10,1,0
+2026,7,cadillac,Cadillac F1 Team,American,11,11,0,0

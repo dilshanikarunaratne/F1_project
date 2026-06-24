@@ -1,204 +1,4 @@
 season,round,race_id,race_name,race_date,driver_id,driver_code,driver_number,driver_name,driver_dob,driver_nationality,constructor_id,constructor_name,constructor_nationality,position,position_text,grid,laps,status,points,fastest_lap_rank,fastest_lap_lap,fastest_lap_time,fastest_lap_speed
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,1,57,Finished,25,6,44,1:36.236,202.452
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,2,2,2,57,Finished,18,7,37,1:36.344,202.225
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,3,3,5,57,Finished,15,5,36,1:36.156,202.620
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,4,4,4,57,Finished,12,14,37,1:37.130,200.588
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,5,5,7,57,Finished,10,10,36,1:36.546,201.802
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,6,6,8,57,Finished,8,9,32,1:36.546,201.802
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,7,7,6,57,Finished,6,17,33,1:37.221,200.401
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,alfa,Alfa Romeo,Swiss,8,8,12,57,Finished,4,18,31,1:37.379,200.075
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,9,9,20,57,Finished,2,2,42,1:35.068,204.939
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,10,10,15,57,Finished,1,15,43,1:37.144,200.559
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,alphatauri,AlphaTauri,Italian,11,11,14,57,Finished,0,12,42,1:36.637,201.612
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,12,12,16,56,Lapped,0,4,42,1:36.037,202.871
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,13,13,17,56,Lapped,0,8,42,1:36.471,201.959
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,de_vries,DEV,21,Nyck de Vries,1995-02-06,Dutch,alphatauri,AlphaTauri,Italian,14,14,19,56,Lapped,0,19,30,1:37.709,199.400
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,15,15,10,56,Lapped,0,11,42,1:36.616,201.656
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,alfa,Alfa Romeo,Swiss,16,16,13,56,Lapped,0,1,56,1:33.996,207.276
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,17,17,11,55,Lapped,0,3,51,1:35.822,203.327
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,18,R,9,41,Retired,0,13,34,1:36.797,201.278
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,19,R,3,39,Retired,0,16,37,1:37.170,200.506
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,20,R,18,13,Retired,0,20,3,1:40.691,193.494
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,1,1,1,50,Finished,25,2,38,1:32.188,241.098
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,2,2,15,50,Finished,19,1,50,1:31.906,241.838
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,3,3,2,50,Finished,15,3,50,1:32.240,240.962
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,4,4,3,50,Finished,12,4,50,1:32.433,240.459
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,5,5,7,50,Finished,10,6,47,1:32.941,239.145
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,6,6,4,50,Finished,8,5,50,1:32.822,239.451
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,7,7,12,50,Finished,6,7,47,1:33.056,238.849
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,8,8,6,50,Finished,4,8,49,1:33.222,238.424
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,9,9,9,50,Finished,2,10,50,1:33.392,237.990
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,10,10,13,50,Finished,1,9,44,1:33.374,238.036
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,alphatauri,AlphaTauri,Italian,11,11,16,50,Finished,0,14,50,1:33.931,236.624
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,12,12,10,50,Finished,0,12,50,1:33.780,237.005
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,alfa,Alfa Romeo,Swiss,13,13,11,50,Finished,0,13,49,1:33.894,236.718
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,de_vries,DEV,21,Nyck de Vries,1995-02-06,Dutch,alphatauri,AlphaTauri,Italian,14,14,18,50,Finished,0,11,49,1:33.609,237.438
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,15,15,8,50,Finished,0,16,48,1:34.287,235.731
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,16,16,20,50,Finished,0,18,49,1:34.469,235.277
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,17,17,19,50,Finished,0,15,49,1:34.122,236.144
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,alfa,Alfa Romeo,Swiss,18,18,14,49,Lapped,0,17,37,1:34.384,235.489
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,19,R,17,27,Retired,0,20,24,1:35.567,232.574
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,20,R,5,16,Retired,0,19,7,1:35.140,233.617
-2023,3,2023_3,Australian Grand Prix,2023-04-02,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,1,58,Finished,25,2,49,1:20.342,236.498
-2023,3,2023_3,Australian Grand Prix,2023-04-02,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,2,2,3,58,Finished,18,5,49,1:20.613,235.703
-2023,3,2023_3,Australian Grand Prix,2023-04-02,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,3,3,4,58,Finished,15,4,53,1:20.476,236.105
-2023,3,2023_3,Australian Grand Prix,2023-04-02,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,4,4,6,58,Finished,12,6,50,1:20.934,234.769
-2023,3,2023_3,Australian Grand Prix,2023-04-02,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,5,5,20,58,Finished,11,1,53,1:20.235,236.814
-2023,3,2023_3,Australian Grand Prix,2023-04-02,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,6,6,13,58,Finished,8,9,46,1:21.173,234.077
-2023,3,2023_3,Australian Grand Prix,2023-04-02,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,7,7,10,58,Finished,6,8,46,1:21.124,234.219
-2023,3,2023_3,Australian Grand Prix,2023-04-02,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,8,8,16,58,Finished,4,12,53,1:21.335,233.611
-2023,3,2023_3,Australian Grand Prix,2023-04-02,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,alfa,Alfa Romeo,Swiss,9,9,17,58,Finished,2,16,48,1:21.819,232.229
-2023,3,2023_3,Australian Grand Prix,2023-04-02,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,alphatauri,AlphaTauri,Italian,10,10,12,58,Finished,1,15,52,1:21.789,232.314
-2023,3,2023_3,Australian Grand Prix,2023-04-02,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,alfa,Alfa Romeo,Swiss,11,11,19,58,Finished,0,17,46,1:22.233,231.060
-2023,3,2023_3,Australian Grand Prix,2023-04-02,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,12,12,5,58,Finished,0,3,53,1:20.467,236.131
-2023,3,2023_3,Australian Grand Prix,2023-04-02,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,13,13,9,56,Retired,0,7,47,1:20.995,234.592
-2023,3,2023_3,Australian Grand Prix,2023-04-02,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,14,14,11,56,Retired,0,11,44,1:21.203,233.991
-2023,3,2023_3,Australian Grand Prix,2023-04-02,de_vries,DEV,21,Nyck de Vries,1995-02-06,Dutch,alphatauri,AlphaTauri,Italian,15,15,15,56,Retired,0,10,50,1:21.183,234.049
-2023,3,2023_3,Australian Grand Prix,2023-04-02,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,16,16,18,56,Retired,0,13,50,1:21.456,233.264
-2023,3,2023_3,Australian Grand Prix,2023-04-02,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,17,17,14,52,Retired,0,14,52,1:21.685,232.610
-2023,3,2023_3,Australian Grand Prix,2023-04-02,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,18,R,2,17,Retired,0,18,16,1:22.680,229.811
-2023,3,2023_3,Australian Grand Prix,2023-04-02,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,19,R,8,6,Retired,0,19,6,1:23.349,227.966
-2023,3,2023_3,Australian Grand Prix,2023-04-02,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,20,R,7,0,Retired,0,,,,
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,1,1,3,51,Finished,25,5,50,1:44.589,206.625
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,2,2,2,51,Finished,18,2,51,1:44.232,207.333
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,3,3,1,51,Finished,15,4,49,1:44.561,206.681
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,4,4,6,51,Finished,12,3,49,1:44.241,207.315
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,5,5,4,51,Finished,10,6,48,1:45.175,205.474
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,6,6,5,51,Finished,8,7,48,1:45.346,205.141
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,7,7,9,51,Finished,6,9,45,1:45.627,204.595
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,8,8,11,51,Finished,5,1,51,1:43.370,209.062
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,9,9,7,51,Finished,2,12,49,1:45.738,204.380
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,alphatauri,AlphaTauri,Italian,10,10,8,51,Finished,1,11,51,1:45.727,204.401
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,11,11,10,51,Finished,0,10,51,1:45.631,204.587
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,12,12,12,51,Finished,0,15,51,1:45.925,204.019
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,13,13,16,51,Finished,0,13,51,1:45.850,204.164
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,14,14,17,51,Finished,0,8,47,1:45.540,204.764
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,15,15,19,51,Finished,0,14,49,1:45.908,204.052
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,16,16,14,51,Finished,0,17,49,1:46.501,202.916
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,17,17,20,50,Lapped,0,18,34,1:46.731,202.479
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,alfa,Alfa Romeo,Swiss,18,18,13,50,Lapped,0,16,36,1:46.304,203.292
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,alfa,Alfa Romeo,Swiss,19,R,15,36,Retired,0,19,31,1:47.553,200.931
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,de_vries,DEV,21,Nyck de Vries,1995-02-06,Dutch,alphatauri,AlphaTauri,Italian,20,R,18,9,Retired,0,20,4,1:48.781,198.663
-2023,5,2023_5,Miami Grand Prix,2023-05-07,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,9,57,Finished,26,1,56,1:29.708,217.184
-2023,5,2023_5,Miami Grand Prix,2023-05-07,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,2,2,1,57,Finished,18,3,57,1:30.560,215.141
-2023,5,2023_5,Miami Grand Prix,2023-05-07,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,3,3,2,57,Finished,15,2,57,1:30.519,215.238
-2023,5,2023_5,Miami Grand Prix,2023-05-07,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,4,4,6,57,Finished,12,7,57,1:31.015,214.065
-2023,5,2023_5,Miami Grand Prix,2023-05-07,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,5,5,3,57,Finished,10,10,55,1:31.362,213.252
-2023,5,2023_5,Miami Grand Prix,2023-05-07,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,6,6,13,57,Finished,8,4,57,1:30.669,214.882
-2023,5,2023_5,Miami Grand Prix,2023-05-07,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,7,7,7,57,Finished,6,11,57,1:31.434,213.084
-2023,5,2023_5,Miami Grand Prix,2023-05-07,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,8,8,5,57,Finished,4,17,55,1:31.971,211.840
-2023,5,2023_5,Miami Grand Prix,2023-05-07,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,9,9,8,57,Finished,2,9,56,1:31.143,213.765
-2023,5,2023_5,Miami Grand Prix,2023-05-07,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,10,10,4,57,Finished,1,13,53,1:31.691,212.487
-2023,5,2023_5,Miami Grand Prix,2023-05-07,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,alphatauri,AlphaTauri,Italian,11,11,17,57,Finished,0,8,56,1:31.038,214.011
-2023,5,2023_5,Miami Grand Prix,2023-05-07,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,12,12,18,57,Finished,0,5,44,1:30.862,214.426
-2023,5,2023_5,Miami Grand Prix,2023-05-07,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,alfa,Alfa Romeo,Swiss,13,13,10,57,Finished,0,15,56,1:31.838,212.147
-2023,5,2023_5,Miami Grand Prix,2023-05-07,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,14,14,11,57,Finished,0,16,55,1:31.852,212.115
-2023,5,2023_5,Miami Grand Prix,2023-05-07,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,15,15,12,57,Finished,0,6,36,1:30.901,214.334
-2023,5,2023_5,Miami Grand Prix,2023-05-07,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,alfa,Alfa Romeo,Swiss,16,16,14,57,Finished,0,14,56,1:31.736,212.383
-2023,5,2023_5,Miami Grand Prix,2023-05-07,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,17,17,16,57,Finished,0,20,47,1:32.401,210.854
-2023,5,2023_5,Miami Grand Prix,2023-05-07,de_vries,DEV,21,Nyck de Vries,1995-02-06,Dutch,alphatauri,AlphaTauri,Italian,18,18,15,57,Finished,0,12,57,1:31.562,212.786
-2023,5,2023_5,Miami Grand Prix,2023-05-07,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,19,19,19,56,Lapped,0,18,56,1:32.006,211.760
-2023,5,2023_5,Miami Grand Prix,2023-05-07,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,20,20,20,56,Lapped,0,19,50,1:32.384,210.893
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,1,57,Finished,26,1,39,1:32.608,210.383
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,2,2,5,57,Finished,18,4,40,1:34.364,206.468
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,3,3,4,57,Finished,15,6,44,1:34.507,206.156
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,4,4,2,57,Finished,12,2,36,1:34.090,207.069
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,5,5,3,57,Finished,10,12,40,1:35.065,204.946
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,6,6,7,57,Finished,8,5,35,1:34.476,
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,7,7,9,57,Finished,6,7,39,1:34.722,205.688
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,8,8,8,57,Finished,4,11,39,1:34.983,
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,9,9,6,57,Finished,2,3,48,1:34.199,206.830
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,10,10,12,57,Finished,1,16,30,1:35.632,203.730
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,sauber,Sauber,Swiss,11,11,17,56,Lapped,0,14,30,1:35.458,204.102
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,12,12,15,56,Lapped,0,15,34,1:35.570,203.863
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,ricciardo,RIC,3,Daniel Ricciardo,1989-07-01,Australian,rb,RB F1 Team,Italian,13,13,14,56,Lapped,0,13,37,1:35.163,204.735
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,rb,RB F1 Team,Italian,14,14,11,56,Lapped,0,18,37,1:35.833,203.303
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,15,15,13,56,Lapped,0,17,40,1:35.723,203.537
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,16,16,10,56,Lapped,0,10,46,1:34.834,205.445
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,17,17,19,56,Lapped,0,20,34,1:36.226,202.473
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,18,18,20,56,Lapped,0,9,45,1:34.805,205.508
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,sauber,Sauber,Swiss,19,19,16,56,Lapped,0,19,33,1:36.202,202.523
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,20,20,18,55,Lapped,0,8,42,1:34.735,205.659
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,1,50,Finished,25,3,50,1:31.773,242.188
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,2,2,3,50,Finished,18,8,37,1:32.273,240.876
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,3,3,2,50,Finished,16,1,50,1:31.632,242.561
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,4,4,5,50,Finished,12,10,45,1:32.310,
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,5,5,4,50,Finished,10,13,43,1:32.387,240.579
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,6,6,7,50,Finished,8,7,42,1:32.254,240.926
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,bearman,BEA,87,Oliver Bearman,2005-05-08,British,ferrari,Ferrari,Italian,7,7,11,50,Finished,6,5,50,1:32.186,241.103
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,8,8,6,50,Finished,4,4,40,1:31.944,
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,9,9,8,50,Finished,2,2,38,1:31.746,242.260
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,10,10,15,50,Finished,1,12,49,1:32.366,240.633
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,11,11,12,50,Finished,0,9,50,1:32.307,240.787
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,12,12,13,50,Finished,0,11,47,1:32.338,240.706
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,13,13,17,49,Lapped,0,17,48,1:33.481,237.763
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,14,14,19,49,Lapped,0,15,49,1:33.026,
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,rb,RB F1 Team,Italian,15,15,9,49,Lapped,0,18,44,1:33.523,
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,ricciardo,RIC,3,Daniel Ricciardo,1989-07-01,Australian,rb,RB F1 Team,Italian,16,16,14,49,Lapped,0,16,47,1:33.323,238.166
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,sauber,Sauber,Swiss,17,17,16,49,Lapped,0,14,49,1:32.706,239.751
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,sauber,Sauber,Swiss,18,18,20,49,Lapped,0,6,49,1:32.208,241.046
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,19,R,10,5,Retired,0,19,5,1:35.560,232.591
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,20,R,18,1,Retired,0,,,,
-2024,3,2024_3,Australian Grand Prix,2024-03-24,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,1,1,2,58,Finished,25,3,48,1:20.031,237.418
-2024,3,2024_3,Australian Grand Prix,2024-03-24,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,2,2,4,58,Finished,19,1,56,1:19.813,238.066
-2024,3,2024_3,Australian Grand Prix,2024-03-24,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,3,3,3,58,Finished,15,2,49,1:19.915,
-2024,3,2024_3,Australian Grand Prix,2024-03-24,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,4,4,5,58,Finished,12,4,54,1:20.199,
-2024,3,2024_3,Australian Grand Prix,2024-03-24,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,5,5,6,58,Finished,10,6,47,1:20.388,236.363
-2024,3,2024_3,Australian Grand Prix,2024-03-24,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,6,6,9,58,Finished,8,8,49,1:20.930,234.780
-2024,3,2024_3,Australian Grand Prix,2024-03-24,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,rb,RB F1 Team,Italian,7,7,8,58,Finished,6,11,46,1:21.134,234.190
-2024,3,2024_3,Australian Grand Prix,2024-03-24,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,8,8,10,58,Finished,4,7,52,1:20.493,236.055
-2024,3,2024_3,Australian Grand Prix,2024-03-24,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,9,9,16,58,Finished,2,12,46,1:21.145,234.158
-2024,3,2024_3,Australian Grand Prix,2024-03-24,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,10,10,14,57,Lapped,1,9,44,1:21.082,234.340
-2024,3,2024_3,Australian Grand Prix,2024-03-24,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,11,11,12,57,Lapped,0,17,46,1:21.618,232.801
-2024,3,2024_3,Australian Grand Prix,2024-03-24,ricciardo,RIC,3,Daniel Ricciardo,1989-07-01,Australian,rb,RB F1 Team,Italian,12,12,18,57,Lapped,0,13,46,1:21.239,233.887
-2024,3,2024_3,Australian Grand Prix,2024-03-24,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,13,13,17,57,Lapped,0,10,51,1:21.090,234.317
-2024,3,2024_3,Australian Grand Prix,2024-03-24,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,sauber,Sauber,Swiss,14,14,13,57,Lapped,0,16,48,1:21.422,233.361
-2024,3,2024_3,Australian Grand Prix,2024-03-24,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,sauber,Sauber,Swiss,15,15,19,57,Lapped,0,14,49,1:21.327,233.634
-2024,3,2024_3,Australian Grand Prix,2024-03-24,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,16,16,15,57,Lapped,0,15,45,1:21.354,233.557
-2024,3,2024_3,Australian Grand Prix,2024-03-24,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,17,17,7,56,Retired,0,5,53,1:20.284,236.669
-2024,3,2024_3,Australian Grand Prix,2024-03-24,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,18,R,11,15,Retired,0,18,11,1:22.444,230.469
-2024,3,2024_3,Australian Grand Prix,2024-03-24,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,19,R,1,3,Retired,0,19,3,1:23.115,228.608
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,1,53,Finished,26,1,50,1:33.706,223.093
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,2,2,2,53,Finished,18,3,35,1:33.945,222.525
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,3,3,4,53,Finished,15,2,46,1:33.841,222.772
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,4,4,8,53,Finished,12,9,53,1:35.044,219.952
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,5,5,3,53,Finished,10,10,51,1:35.186,
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,6,6,5,53,Finished,8,6,53,1:34.726,220.691
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,7,7,9,53,Finished,6,5,39,1:34.404,221.444
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,8,8,6,53,Finished,4,7,35,1:34.802,
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,9,9,7,53,Finished,2,4,41,1:33.952,222.509
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,rb,RB F1 Team,Italian,10,10,10,52,Lapped,1,14,51,1:36.342,216.989
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,11,11,12,52,Lapped,0,11,52,1:35.325,219.304
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,12,12,16,52,Lapped,0,12,41,1:35.798,218.221
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,13,13,18,52,Lapped,0,17,24,1:36.654,216.289
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,sauber,Sauber,Swiss,14,14,13,52,Lapped,0,15,25,1:36.608,216.392
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,15,15,15,52,Lapped,0,13,52,1:36.232,217.237
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,16,16,17,52,Lapped,0,16,48,1:36.642,216.315
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,17,17,19,52,Lapped,0,8,43,1:34.900,220.286
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,sauber,Sauber,Swiss,18,R,20,12,Retired,0,18,9,1:37.160,215.162
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,ricciardo,RIC,3,Daniel Ricciardo,1989-07-01,Australian,rb,RB F1 Team,Italian,19,R,11,0,Retired,0,,,,
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,20,R,14,0,Retired,0,,,,
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,1,1,1,56,Finished,25,2,33,1:38.406,199.414
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,2,2,4,56,Finished,18,4,33,1:38.751,
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,red_bull,Red Bull,Austrian,3,3,2,56,Finished,15,7,33,1:39.388,197.444
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,4,4,6,56,Finished,12,6,33,1:39.384,197.452
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,ferrari,Ferrari,Italian,5,5,7,56,Finished,10,10,19,1:39.764,196.700
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,6,6,8,56,Finished,8,11,39,1:40.112,196.016
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,7,7,3,56,Finished,7,1,45,1:37.810,200.629
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,8,8,5,56,Finished,4,9,18,1:39.739,
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,mercedes,Mercedes,German,9,9,18,56,Finished,2,14,34,1:40.835,194.610
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,haas,Haas F1 Team,American,10,10,9,56,Finished,1,13,32,1:40.815,194.649
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,ocon,OCO,31,Esteban Ocon,1996-09-17,French,alpine,Alpine F1 Team,French,11,11,13,56,Finished,0,15,33,1:40.937,194.414
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,12,12,14,56,Finished,0,12,34,1:40.790,194.697
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,13,13,15,56,Finished,0,5,40,1:39.198,197.822
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,zhou,ZHO,24,Guanyu Zhou,1999-05-30,Chinese,sauber,Sauber,Swiss,14,14,16,56,Finished,0,3,42,1:38.633,198.955
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,15,15,11,56,Finished,0,8,37,1:39.444,197.333
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,kevin_magnussen,MAG,20,Kevin Magnussen,1992-10-05,Danish,haas,Haas F1 Team,American,16,16,17,56,Finished,0,18,45,1:41.077,194.145
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,sargeant,SAR,2,Logan Sargeant,2000-12-31,American,williams,Williams,British,17,17,20,56,Finished,0,17,14,1:41.000,194.293
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,ricciardo,RIC,3,Daniel Ricciardo,1989-07-01,Australian,rb,RB F1 Team,Italian,18,R,12,33,Retired,0,16,16,1:40.994,194.304
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,rb,RB F1 Team,Italian,19,R,19,26,Retired,0,20,11,1:41.593,193.158
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,sauber,Sauber,Swiss,20,R,10,19,Retired,0,19,11,1:41.276,193.763
-2024,6,2024_6,Miami Grand Prix,2024-05-05,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,1,1,5,57,Finished,25,5,55,1:30.980,214.148
 2025,1,2025_1,Australian Grand Prix,2025-03-16,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,1,1,1,57,Finished,25,1,43,1:22.167,
 2025,1,2025_1,Australian Grand Prix,2025-03-16,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,2,2,3,57,Finished,18,3,43,1:23.081,
 2025,1,2025_1,Australian Grand Prix,2025-03-16,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,3,3,4,57,Finished,15,11,43,1:25.065,
@@ -299,3 +99,103 @@ season,round,race_id,race_name,race_date,driver_id,driver_code,driver_number,dri
 2025,5,2025_5,Saudi Arabian Grand Prix,2025-04-20,bortoleto,BOR,5,Gabriel Bortoleto,2004-10-14,Brazilian,sauber,Sauber,Swiss,18,18,20,49,Lapped,0,18,39,1:34.447,
 2025,5,2025_5,Saudi Arabian Grand Prix,2025-04-20,tsunoda,TSU,22,Yuki Tsunoda,2000-05-11,Japanese,red_bull,Red Bull,Austrian,19,R,8,1,Retired,0,,,,
 2025,5,2025_5,Saudi Arabian Grand Prix,2025-04-20,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,20,R,9,0,Retired,0,,,,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,1,1,1,58,Finished,25,6,21,1:22.670,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,antonelli,ANT,12,Andrea Kimi Antonelli,2006-08-25,Italian,mercedes,Mercedes,German,2,2,2,58,Finished,18,3,57,1:22.417,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,3,3,4,58,Finished,15,5,38,1:22.579,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,ferrari,Ferrari,Italian,4,4,7,58,Finished,12,4,55,1:22.423,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,5,5,6,58,Finished,10,2,53,1:22.358,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,6,6,20,58,Finished,8,1,43,1:22.091,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,bearman,BEA,87,Oliver Bearman,2005-05-08,British,haas,Haas F1 Team,American,7,7,12,57,Lapped,6,11,22,1:24.020,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,arvid_lindblad,LIN,41,Arvid Lindblad,2007-08-08,British,rb,RB F1 Team,Italian,8,8,9,57,Lapped,4,12,21,1:24.182,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,bortoleto,BOR,5,Gabriel Bortoleto,2004-10-14,Brazilian,audi,Audi,German,9,9,10,57,Lapped,2,8,45,1:23.257,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,10,10,14,57,Lapped,1,15,56,1:24.486,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,ocon,OCO,31,Esteban Ocon,1996-09-17,French,haas,Haas F1 Team,American,11,11,13,57,Lapped,0,14,25,1:24.424,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,12,12,15,57,Lapped,0,13,36,1:24.375,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,lawson,LAW,30,Liam Lawson,2002-02-11,New Zealander,rb,RB F1 Team,Italian,13,13,8,57,Lapped,0,10,47,1:23.783,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,colapinto,COL,43,Franco Colapinto,2003-05-27,Argentine,alpine,Alpine F1 Team,French,14,14,16,56,Lapped,0,7,48,1:22.926,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,williams,Williams,British,15,15,21,56,Lapped,0,9,52,1:23.590,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,cadillac,Cadillac F1 Team,American,16,16,18,55,Lapped,0,19,47,1:26.070,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,17,R,22,43,Lapped,0,17,36,1:25.410,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,18,R,17,21,Retired,0,18,15,1:25.713,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,cadillac,Cadillac F1 Team,American,19,R,19,15,Retired,0,20,8,1:27.364,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,hadjar,HAD,6,Isack Hadjar,2004-09-28,French,red_bull,Red Bull,Austrian,20,R,3,10,Retired,0,16,9,1:25.239,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,21,W,5,0,Did not start,0,,,,
+2026,1,2026_1,Australian Grand Prix,2026-03-08,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,audi,Audi,German,22,W,11,0,Did not start,0,,,,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,antonelli,ANT,12,Andrea Kimi Antonelli,2006-08-25,Italian,mercedes,Mercedes,German,1,1,1,56,Finished,25,1,52,1:35.275,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,2,2,2,56,Finished,18,2,56,1:35.400,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,ferrari,Ferrari,Italian,3,3,3,56,Finished,15,5,55,1:36.092,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,4,4,4,56,Finished,12,4,56,1:36.011,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,bearman,BEA,87,Oliver Bearman,2005-05-08,British,haas,Haas F1 Team,American,5,5,10,56,Finished,10,8,56,1:36.429,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,6,6,7,56,Finished,8,9,53,1:36.505,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,lawson,LAW,30,Liam Lawson,2002-02-11,New Zealander,rb,RB F1 Team,Italian,7,7,14,56,Finished,6,12,56,1:37.096,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,hadjar,HAD,6,Isack Hadjar,2004-09-28,French,red_bull,Red Bull,Austrian,8,8,9,56,Finished,4,13,46,1:37.311,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,williams,Williams,British,9,9,17,55,Lapped,2,14,51,1:37.981,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,colapinto,COL,43,Franco Colapinto,2003-05-27,Argentine,alpine,Alpine F1 Team,French,10,10,12,55,Lapped,1,10,35,1:36.783,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,audi,Audi,German,11,11,11,55,Lapped,0,7,38,1:36.180,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,arvid_lindblad,LIN,41,Arvid Lindblad,2007-08-08,British,rb,RB F1 Team,Italian,12,12,15,55,Lapped,0,6,46,1:36.099,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,cadillac,Cadillac F1 Team,American,13,13,19,55,Lapped,0,15,55,1:38.393,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,ocon,OCO,31,Esteban Ocon,1996-09-17,French,haas,Haas F1 Team,American,14,14,13,55,Lapped,0,3,54,1:35.964,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,cadillac,Cadillac F1 Team,American,15,15,21,55,Lapped,0,16,50,1:38.523,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,16,R,8,45,Retired,0,11,39,1:37.046,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,17,R,18,32,Retired,0,17,25,1:39.721,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,18,R,20,9,Retired,0,18,9,1:40.883,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,19,W,5,0,Did not start,0,,,,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,20,W,6,0,Did not start,0,,,,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,bortoleto,BOR,5,Gabriel Bortoleto,2004-10-14,Brazilian,audi,Audi,German,21,W,16,0,Did not start,0,,,,
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,22,W,22,0,Did not start,0,,,,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,antonelli,ANT,12,Andrea Kimi Antonelli,2006-08-25,Italian,mercedes,Mercedes,German,1,1,1,53,Finished,25,1,49,1:32.432,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,2,2,3,53,Finished,18,5,49,1:32.996,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,3,3,4,53,Finished,15,3,53,1:32.634,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,4,4,2,53,Finished,12,2,53,1:32.549,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,5,5,5,53,Finished,10,6,52,1:33.208,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,ferrari,Ferrari,Italian,6,6,6,53,Finished,8,4,48,1:32.777,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,7,7,7,53,Finished,6,9,39,1:33.691,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,8,8,11,53,Finished,4,8,41,1:33.552,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,lawson,LAW,30,Liam Lawson,2002-02-11,New Zealander,rb,RB F1 Team,Italian,9,9,14,53,Finished,2,13,53,1:34.230,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,ocon,OCO,31,Esteban Ocon,1996-09-17,French,haas,Haas F1 Team,American,10,10,12,53,Finished,1,14,53,1:34.256,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,audi,Audi,German,11,11,13,53,Finished,0,10,47,1:33.732,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,hadjar,HAD,6,Isack Hadjar,2004-09-28,French,red_bull,Red Bull,Austrian,12,12,8,53,Finished,0,11,53,1:33.837,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,bortoleto,BOR,5,Gabriel Bortoleto,2004-10-14,Brazilian,audi,Audi,German,13,13,9,53,Finished,0,12,40,1:34.164,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,arvid_lindblad,LIN,41,Arvid Lindblad,2007-08-08,British,rb,RB F1 Team,Italian,14,14,10,53,Finished,0,15,53,1:34.314,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,williams,Williams,British,15,15,16,53,Finished,0,17,38,1:34.514,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,colapinto,COL,43,Franco Colapinto,2003-05-27,Argentine,alpine,Alpine F1 Team,French,16,16,15,53,Finished,0,16,41,1:34.512,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,cadillac,Cadillac F1 Team,American,17,17,19,53,Finished,0,19,53,1:35.637,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,18,18,21,52,Lapped,0,20,47,1:36.221,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,cadillac,Cadillac F1 Team,American,19,19,20,52,Lapped,0,21,52,1:36.269,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,20,20,17,51,Lapped,0,7,51,1:33.427,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,21,R,22,30,Retired,0,22,29,1:37.217,
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,bearman,BEA,87,Oliver Bearman,2005-05-08,British,haas,Haas F1 Team,American,22,R,18,20,Retired,0,18,20,1:35.604,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,antonelli,ANT,12,Andrea Kimi Antonelli,2006-08-25,Italian,mercedes,Mercedes,German,1,1,1,57,Finished,25,3,34,1:31.968,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,norris,NOR,1,Lando Norris,1999-11-13,British,mclaren,McLaren,British,2,2,4,57,Finished,18,1,35,1:31.869,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,3,3,7,57,Finished,15,2,30,1:31.949,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,russell,RUS,63,George Russell,1998-02-15,British,mercedes,Mercedes,German,4,4,5,57,Finished,12,4,53,1:32.446,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,5,5,2,57,Finished,10,9,24,1:33.110,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,ferrari,Ferrari,Italian,6,6,6,57,Finished,8,6,29,1:32.676,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,colapinto,COL,43,Franco Colapinto,2003-05-27,Argentine,alpine,Alpine F1 Team,French,7,7,8,57,Finished,6,8,33,1:33.035,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,8,8,3,57,Finished,4,5,44,1:32.515,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,williams,Williams,British,9,9,13,57,Finished,2,7,30,1:33.026,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,albon,ALB,23,Alexander Albon,1996-03-23,Thai,williams,Williams,British,10,10,15,57,Finished,1,13,30,1:33.784,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,bearman,BEA,87,Oliver Bearman,2005-05-08,British,haas,Haas F1 Team,American,11,11,12,56,Lapped,0,12,28,1:33.744,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,bortoleto,BOR,5,Gabriel Bortoleto,2004-10-14,Brazilian,audi,Audi,German,12,12,21,56,Lapped,0,10,55,1:33.500,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,ocon,OCO,31,Esteban Ocon,1996-09-17,French,haas,Haas F1 Team,American,13,13,14,56,Lapped,0,11,33,1:33.712,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,arvid_lindblad,LIN,41,Arvid Lindblad,2007-08-08,British,rb,RB F1 Team,Italian,14,14,16,56,Lapped,0,14,30,1:34.058,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,alonso,ALO,14,Fernando Alonso,1981-07-29,Spanish,aston_martin,Aston Martin,British,15,15,17,56,Lapped,0,16,45,1:34.594,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,perez,PER,11,Sergio Pérez,1990-01-26,Mexican,cadillac,Cadillac F1 Team,American,16,16,20,56,Lapped,0,21,31,1:34.895,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,stroll,STR,18,Lance Stroll,1998-10-29,Canadian,aston_martin,Aston Martin,British,17,17,18,56,Lapped,0,17,56,1:34.716,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,bottas,BOT,77,Valtteri Bottas,1989-08-28,Finnish,cadillac,Cadillac F1 Team,American,18,18,19,55,Lapped,0,22,16,1:36.080,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,audi,Audi,German,19,R,10,7,Retired,0,15,4,1:34.523,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,lawson,LAW,30,Liam Lawson,2002-02-11,New Zealander,rb,RB F1 Team,Italian,20,R,11,6,Retired,0,18,3,1:34.814,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,21,R,9,4,Retired,0,20,4,1:34.856,
+2026,4,2026_4,Miami Grand Prix,2026-05-03,hadjar,HAD,6,Isack Hadjar,2004-09-28,French,red_bull,Red Bull,Austrian,22,R,22,4,Retired,0,19,4,1:34.833,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,antonelli,ANT,12,Andrea Kimi Antonelli,2006-08-25,Italian,mercedes,Mercedes,German,1,1,2,68,Finished,25,1,68,1:14.210,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,hamilton,HAM,44,Lewis Hamilton,1985-01-07,British,ferrari,Ferrari,Italian,2,2,5,68,Finished,18,3,61,1:14.573,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,max_verstappen,VER,3,Max Verstappen,1997-09-30,Dutch,red_bull,Red Bull,Austrian,3,3,6,68,Finished,15,2,68,1:14.398,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,leclerc,LEC,16,Charles Leclerc,1997-10-16,Monegasque,ferrari,Ferrari,Italian,4,4,8,68,Finished,12,5,37,1:15.297,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,hadjar,HAD,6,Isack Hadjar,2004-09-28,French,red_bull,Red Bull,Austrian,5,5,7,67,Lapped,10,4,67,1:14.578,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,colapinto,COL,43,Franco Colapinto,2003-05-27,Argentine,alpine,Alpine F1 Team,French,6,6,10,67,Lapped,8,8,67,1:15.462,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,lawson,LAW,30,Liam Lawson,2002-02-11,New Zealander,rb,RB F1 Team,Italian,7,7,12,67,Lapped,6,10,59,1:15.604,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,gasly,GAS,10,Pierre Gasly,1996-02-07,French,alpine,Alpine F1 Team,French,8,8,14,67,Lapped,4,6,67,1:15.390,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,sainz,SAI,55,Carlos Sainz,1994-09-01,Spanish,williams,Williams,British,9,9,15,67,Lapped,2,12,65,1:15.852,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,bearman,BEA,87,Oliver Bearman,2005-05-08,British,haas,Haas F1 Team,American,10,10,16,67,Lapped,1,13,64,1:16.002,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,piastri,PIA,81,Oscar Piastri,2001-04-06,Australian,mclaren,McLaren,British,11,11,4,66,Lapped,0,7,61,1:15.456,
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,hulkenberg,HUL,27,Nico Hülkenberg,1987-08-19,German,audi,Audi,German,12,12,11,66,Lapped,0,15,57,1:16.275,

@@ -1,50 +1,4 @@
 season,round,race_id,race_name,race_date,race_time,circuit_id,circuit_name,locality,country,lat,long
-2023,1,2023_1,Bahrain Grand Prix,2023-03-05,15:00:00Z,bahrain,Bahrain International Circuit,Sakhir,Bahrain,26.0325,50.5106
-2023,2,2023_2,Saudi Arabian Grand Prix,2023-03-19,17:00:00Z,jeddah,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,21.6319,39.1044
-2023,3,2023_3,Australian Grand Prix,2023-04-02,05:00:00Z,albert_park,Albert Park Grand Prix Circuit,Melbourne,Australia,-37.8497,144.968
-2023,4,2023_4,Azerbaijan Grand Prix,2023-04-30,11:00:00Z,baku,Baku City Circuit,Baku,Azerbaijan,40.3725,49.8533
-2023,5,2023_5,Miami Grand Prix,2023-05-07,19:30:00Z,miami,Miami International Autodrome,Miami,USA,25.9581,-80.2389
-2023,6,2023_6,Monaco Grand Prix,2023-05-28,13:00:00Z,monaco,Circuit de Monaco,Monte Carlo,Monaco,43.7347,7.42056
-2023,7,2023_7,Spanish Grand Prix,2023-06-04,13:00:00Z,catalunya,Circuit de Barcelona-Catalunya,Barcelona,Spain,41.57,2.26111
-2023,8,2023_8,Canadian Grand Prix,2023-06-18,18:00:00Z,villeneuve,Circuit Gilles Villeneuve,Montreal,Canada,45.5,-73.5228
-2023,9,2023_9,Austrian Grand Prix,2023-07-02,13:00:00Z,red_bull_ring,Red Bull Ring,Spielberg,Austria,47.2197,14.7647
-2023,10,2023_10,British Grand Prix,2023-07-09,14:00:00Z,silverstone,Silverstone Circuit,Silverstone,UK,52.0786,-1.01694
-2023,11,2023_11,Hungarian Grand Prix,2023-07-23,13:00:00Z,hungaroring,Hungaroring,Budapest,Hungary,47.5789,19.2486
-2023,12,2023_12,Belgian Grand Prix,2023-07-30,13:00:00Z,spa,Circuit de Spa-Francorchamps,Spa,Belgium,50.4372,5.97139
-2023,13,2023_13,Dutch Grand Prix,2023-08-27,13:00:00Z,zandvoort,Circuit Park Zandvoort,Zandvoort,Netherlands,52.3888,4.54092
-2023,14,2023_14,Italian Grand Prix,2023-09-03,13:00:00Z,monza,Autodromo Nazionale di Monza,Monza,Italy,45.6156,9.28111
-2023,15,2023_15,Singapore Grand Prix,2023-09-17,12:00:00Z,marina_bay,Marina Bay Street Circuit,Marina Bay,Singapore,1.2914,103.864
-2023,16,2023_16,Japanese Grand Prix,2023-09-24,05:00:00Z,suzuka,Suzuka Circuit,Suzuka,Japan,34.8431,136.541
-2023,17,2023_17,Qatar Grand Prix,2023-10-08,17:00:00Z,losail,Losail International Circuit,Lusail,Qatar,25.49,51.4542
-2023,18,2023_18,United States Grand Prix,2023-10-22,19:00:00Z,americas,Circuit of the Americas,Austin,USA,30.1328,-97.6411
-2023,19,2023_19,Mexico City Grand Prix,2023-10-29,20:00:00Z,rodriguez,Autódromo Hermanos Rodríguez,Mexico City,Mexico,19.4042,-99.0907
-2023,20,2023_20,São Paulo Grand Prix,2023-11-05,17:00:00Z,interlagos,Autódromo José Carlos Pace,São Paulo,Brazil,-23.7036,-46.6997
-2023,21,2023_21,Las Vegas Grand Prix,2023-11-19,06:00:00Z,vegas,Las Vegas Strip Street Circuit,Las Vegas,USA,36.1147,-115.173
-2023,22,2023_22,Abu Dhabi Grand Prix,2023-11-26,13:00:00Z,yas_marina,Yas Marina Circuit,Abu Dhabi,UAE,24.4672,54.6031
-2024,1,2024_1,Bahrain Grand Prix,2024-03-02,15:00:00Z,bahrain,Bahrain International Circuit,Sakhir,Bahrain,26.0325,50.5106
-2024,2,2024_2,Saudi Arabian Grand Prix,2024-03-09,17:00:00Z,jeddah,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,21.6319,39.1044
-2024,3,2024_3,Australian Grand Prix,2024-03-24,04:00:00Z,albert_park,Albert Park Grand Prix Circuit,Melbourne,Australia,-37.8497,144.968
-2024,4,2024_4,Japanese Grand Prix,2024-04-07,05:00:00Z,suzuka,Suzuka Circuit,Suzuka,Japan,34.8431,136.541
-2024,5,2024_5,Chinese Grand Prix,2024-04-21,07:00:00Z,shanghai,Shanghai International Circuit,Shanghai,China,31.3389,121.22
-2024,6,2024_6,Miami Grand Prix,2024-05-05,20:00:00Z,miami,Miami International Autodrome,Miami,USA,25.9581,-80.2389
-2024,7,2024_7,Emilia Romagna Grand Prix,2024-05-19,13:00:00Z,imola,Autodromo Enzo e Dino Ferrari,Imola,Italy,44.3439,11.7167
-2024,8,2024_8,Monaco Grand Prix,2024-05-26,13:00:00Z,monaco,Circuit de Monaco,Monte Carlo,Monaco,43.7347,7.42056
-2024,9,2024_9,Canadian Grand Prix,2024-06-09,18:00:00Z,villeneuve,Circuit Gilles Villeneuve,Montreal,Canada,45.5,-73.5228
-2024,10,2024_10,Spanish Grand Prix,2024-06-23,13:00:00Z,catalunya,Circuit de Barcelona-Catalunya,Barcelona,Spain,41.57,2.26111
-2024,11,2024_11,Austrian Grand Prix,2024-06-30,13:00:00Z,red_bull_ring,Red Bull Ring,Spielberg,Austria,47.2197,14.7647
-2024,12,2024_12,British Grand Prix,2024-07-07,14:00:00Z,silverstone,Silverstone Circuit,Silverstone,UK,52.0786,-1.01694
-2024,13,2024_13,Hungarian Grand Prix,2024-07-21,13:00:00Z,hungaroring,Hungaroring,Budapest,Hungary,47.5789,19.2486
-2024,14,2024_14,Belgian Grand Prix,2024-07-28,13:00:00Z,spa,Circuit de Spa-Francorchamps,Spa,Belgium,50.4372,5.97139
-2024,15,2024_15,Dutch Grand Prix,2024-08-25,13:00:00Z,zandvoort,Circuit Park Zandvoort,Zandvoort,Netherlands,52.3888,4.54092
-2024,16,2024_16,Italian Grand Prix,2024-09-01,13:00:00Z,monza,Autodromo Nazionale di Monza,Monza,Italy,45.6156,9.28111
-2024,17,2024_17,Azerbaijan Grand Prix,2024-09-15,11:00:00Z,baku,Baku City Circuit,Baku,Azerbaijan,40.3725,49.8533
-2024,18,2024_18,Singapore Grand Prix,2024-09-22,12:00:00Z,marina_bay,Marina Bay Street Circuit,Marina Bay,Singapore,1.2914,103.864
-2024,19,2024_19,United States Grand Prix,2024-10-20,19:00:00Z,americas,Circuit of the Americas,Austin,USA,30.1328,-97.6411
-2024,20,2024_20,Mexico City Grand Prix,2024-10-27,20:00:00Z,rodriguez,Autódromo Hermanos Rodríguez,Mexico City,Mexico,19.4042,-99.0907
-2024,21,2024_21,São Paulo Grand Prix,2024-11-03,17:00:00Z,interlagos,Autódromo José Carlos Pace,São Paulo,Brazil,-23.7036,-46.6997
-2024,22,2024_22,Las Vegas Grand Prix,2024-11-23,06:00:00Z,vegas,Las Vegas Strip Street Circuit,Las Vegas,USA,36.1147,-115.173
-2024,23,2024_23,Qatar Grand Prix,2024-12-01,16:00:00Z,losail,Losail International Circuit,Lusail,Qatar,25.49,51.4542
-2024,24,2024_24,Abu Dhabi Grand Prix,2024-12-08,13:00:00Z,yas_marina,Yas Marina Circuit,Abu Dhabi,UAE,24.4672,54.6031
 2025,1,2025_1,Australian Grand Prix,2025-03-16,04:00:00Z,albert_park,Albert Park Grand Prix Circuit,Melbourne,Australia,-37.8497,144.968
 2025,2,2025_2,Chinese Grand Prix,2025-03-23,07:00:00Z,shanghai,Shanghai International Circuit,Shanghai,China,31.3389,121.22
 2025,3,2025_3,Japanese Grand Prix,2025-04-06,05:00:00Z,suzuka,Suzuka Circuit,Suzuka,Japan,34.8431,136.541
@@ -69,3 +23,25 @@ season,round,race_id,race_name,race_date,race_time,circuit_id,circuit_name,local
 2025,22,2025_22,Las Vegas Grand Prix,2025-11-23,04:00:00Z,vegas,Las Vegas Strip Street Circuit,Las Vegas,USA,36.1147,-115.173
 2025,23,2025_23,Qatar Grand Prix,2025-11-30,16:00:00Z,losail,Losail International Circuit,Lusail,Qatar,25.49,51.4542
 2025,24,2025_24,Abu Dhabi Grand Prix,2025-12-07,13:00:00Z,yas_marina,Yas Marina Circuit,Abu Dhabi,UAE,24.4672,54.6031
+2026,1,2026_1,Australian Grand Prix,2026-03-08,04:00:00Z,albert_park,Albert Park Grand Prix Circuit,Melbourne,Australia,-37.8497,144.968
+2026,2,2026_2,Chinese Grand Prix,2026-03-15,07:00:00Z,shanghai,Shanghai International Circuit,Shanghai,China,31.3389,121.22
+2026,3,2026_3,Japanese Grand Prix,2026-03-29,05:00:00Z,suzuka,Suzuka Circuit,Suzuka,Japan,34.8431,136.541
+2026,4,2026_4,Miami Grand Prix,2026-05-03,20:00:00Z,miami,Miami International Autodrome,Miami,USA,25.9581,-80.2389
+2026,5,2026_5,Canadian Grand Prix,2026-05-24,20:00:00Z,villeneuve,Circuit Gilles Villeneuve,Montreal,Canada,45.5,-73.5228
+2026,6,2026_6,Monaco Grand Prix,2026-06-07,13:00:00Z,monaco,Circuit de Monaco,Monte Carlo,Monaco,43.7347,7.42056
+2026,7,2026_7,Barcelona Grand Prix,2026-06-14,13:00:00Z,catalunya,Circuit de Barcelona-Catalunya,Barcelona,Spain,41.57,2.26111
+2026,8,2026_8,Austrian Grand Prix,2026-06-28,13:00:00Z,red_bull_ring,Red Bull Ring,Spielberg,Austria,47.2197,14.7647
+2026,9,2026_9,British Grand Prix,2026-07-05,14:00:00Z,silverstone,Silverstone Circuit,Silverstone,UK,52.0786,-1.01694
+2026,10,2026_10,Belgian Grand Prix,2026-07-19,13:00:00Z,spa,Circuit de Spa-Francorchamps,Spa,Belgium,50.4372,5.97139
+2026,11,2026_11,Hungarian Grand Prix,2026-07-26,13:00:00Z,hungaroring,Hungaroring,Budapest,Hungary,47.5789,19.2486
+2026,12,2026_12,Dutch Grand Prix,2026-08-23,13:00:00Z,zandvoort,Circuit Park Zandvoort,Zandvoort,Netherlands,52.3888,4.54092
+2026,13,2026_13,Italian Grand Prix,2026-09-06,13:00:00Z,monza,Autodromo Nazionale di Monza,Monza,Italy,45.6156,9.28111
+2026,14,2026_14,Spanish Grand Prix,2026-09-13,13:00:00Z,madring,Madring,Madrid,Spain,40.46528,-3.61528
+2026,15,2026_15,Azerbaijan Grand Prix,2026-09-26,11:00:00Z,baku,Baku City Circuit,Baku,Azerbaijan,40.3725,49.8533
+2026,16,2026_16,Singapore Grand Prix,2026-10-11,12:00:00Z,marina_bay,Marina Bay Street Circuit,Marina Bay,Singapore,1.2914,103.864
+2026,17,2026_17,United States Grand Prix,2026-10-25,20:00:00Z,americas,Circuit of the Americas,Austin,USA,30.1328,-97.6411
+2026,18,2026_18,Mexico City Grand Prix,2026-11-01,20:00:00Z,rodriguez,Autódromo Hermanos Rodríguez,Mexico City,Mexico,19.4042,-99.0907
+2026,19,2026_19,Brazilian Grand Prix,2026-11-08,17:00:00Z,interlagos,Autódromo José Carlos Pace,São Paulo,Brazil,-23.7036,-46.6997
+2026,20,2026_20,Las Vegas Grand Prix,2026-11-22,04:00:00Z,vegas,Las Vegas Strip Street Circuit,Las Vegas,USA,36.1147,-115.173
+2026,21,2026_21,Qatar Grand Prix,2026-11-29,16:00:00Z,losail,Losail International Circuit,Lusail,Qatar,25.49,51.4542
+2026,22,2026_22,Abu Dhabi Grand Prix,2026-12-06,13:00:00Z,yas_marina,Yas Marina Circuit,Abu Dhabi,UAE,24.4672,54.6031
