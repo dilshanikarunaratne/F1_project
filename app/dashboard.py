@@ -331,24 +331,98 @@ if not is_future_race:
         use_container_width=True
     )
 
+if not is_future_race:
+    st.subheader("Prediction Accuracy Breakdown")
+
+    accuracy_summary = pd.DataFrame({
+        "Target": ["Podium", "Top 10", "DNF"],
+        "Correct Predictions": [
+            (prediction_df["podium_finish"] == prediction_df["podium_finish_prediction"]).sum(),
+            (prediction_df["top_10_finish"] == prediction_df["top_10_finish_prediction"]).sum(),
+            (prediction_df["dnf"] == prediction_df["dnf_prediction"]).sum(),
+        ],
+        "Incorrect Predictions": [
+            (prediction_df["podium_finish"] != prediction_df["podium_finish_prediction"]).sum(),
+            (prediction_df["top_10_finish"] != prediction_df["top_10_finish_prediction"]).sum(),
+            (prediction_df["dnf"] != prediction_df["dnf_prediction"]).sum(),
+        ],
+    })
+
+    accuracy_long = accuracy_summary.melt(
+        id_vars="Target",
+        value_vars=["Correct Predictions", "Incorrect Predictions"],
+        var_name="Prediction Result",
+        value_name="Count"
+    )
+
+    fig_accuracy = px.bar(
+        accuracy_long,
+        x="Target",
+        y="Count",
+        color="Prediction Result",
+        barmode="stack",
+        title="Correct vs Incorrect Predictions by Target"
+    )
+
+    st.plotly_chart(fig_accuracy, use_container_width=True)
 
 # -------------------------------------------------------
 # Metrics
 # -------------------------------------------------------
 st.divider()
+st.subheader("Race Prediction Summary")
 
 total_drivers = len(prediction_df)
 predicted_podiums = prediction_df["podium_finish_prediction"].sum()
 predicted_top_10 = prediction_df["top_10_finish_prediction"].sum()
 predicted_dnfs = prediction_df["dnf_prediction"].sum()
 
-col1, col2, col3, col4 = st.columns(4)
+if not is_future_race:
+    actual_podiums = prediction_df["podium_finish"].sum()
+    actual_top_10 = prediction_df["top_10_finish"].sum()
+    actual_dnfs = prediction_df["dnf"].sum()
 
-col1.metric("Driver Entries", total_drivers)
-col2.metric("Predicted Podiums", int(predicted_podiums))
-col3.metric("Predicted Top 10", int(predicted_top_10))
-col4.metric("Predicted DNFs", int(predicted_dnfs))
+    podium_correct = (
+        prediction_df["podium_finish"] ==
+        prediction_df["podium_finish_prediction"]
+    ).sum()
 
+    top_10_correct = (
+        prediction_df["top_10_finish"] ==
+        prediction_df["top_10_finish_prediction"]
+    ).sum()
+
+    dnf_correct = (
+        prediction_df["dnf"] ==
+        prediction_df["dnf_prediction"]
+    ).sum()
+
+    col1, col2, col3, col4 = st.columns(4)
+
+    col1.metric("Driver Entries", total_drivers)
+    col2.metric(
+        "Podium Predictions Correct",
+        f"{podium_correct}/{total_drivers}",
+        delta=f"Actual podiums: {int(actual_podiums)}"
+    )
+    col3.metric(
+        "Top 10 Predictions Correct",
+        f"{top_10_correct}/{total_drivers}",
+        delta=f"Actual top 10: {int(actual_top_10)}"
+    )
+    col4.metric(
+        "DNF Predictions Correct",
+        f"{dnf_correct}/{total_drivers}",
+        delta=f"Actual DNFs: {int(actual_dnfs)}"
+    )
+
+else:
+    col1, col2, col3, col4 = st.columns(4)
+
+    col1.metric("Driver Entries", total_drivers)
+    col2.metric("Predicted Podiums", int(predicted_podiums))
+    col3.metric("Predicted Top 10", int(predicted_top_10))
+    col4.metric("Predicted DNFs", int(predicted_dnfs))
 
 # -------------------------------------------------------
 # Model evaluation metrics
