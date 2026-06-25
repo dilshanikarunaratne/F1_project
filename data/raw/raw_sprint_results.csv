@@ -99,6 +99,26 @@ season,round,race_id,race_name,race_date,driver_id,driver_code,driver_name,const
 2025,21,2025_21,São Paulo Grand Prix,2025-11-09,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,18,18,14,23,Retired,0
 2025,21,2025_21,São Paulo Grand Prix,2025-11-09,piastri,PIA,Oscar Piastri,mclaren,McLaren,19,R,3,5,Retired,0
 2025,21,2025_21,São Paulo Grand Prix,2025-11-09,colapinto,COL,Franco Colapinto,alpine,Alpine F1 Team,20,R,16,5,Retired,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,piastri,PIA,Oscar Piastri,mclaren,McLaren,1,1,1,19,Finished,8
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,russell,RUS,George Russell,mercedes,Mercedes,2,2,2,19,Finished,7
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,norris,NOR,Lando Norris,mclaren,McLaren,3,3,3,19,Finished,6
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,max_verstappen,VER,Max Verstappen,red_bull,Red Bull,4,4,6,19,Finished,5
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,tsunoda,TSU,Yuki Tsunoda,red_bull,Red Bull,5,5,5,19,Finished,4
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,antonelli,ANT,Andrea Kimi Antonelli,mercedes,Mercedes,6,6,7,19,Finished,3
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,alonso,ALO,Fernando Alonso,aston_martin,Aston Martin,7,7,4,19,Finished,2
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,sainz,SAI,Carlos Sainz,williams,Williams,8,8,8,19,Finished,1
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,hadjar,HAD,Isack Hadjar,rb,RB F1 Team,9,9,11,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,albon,ALB,Alexander Albon,williams,Williams,10,10,10,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,bortoleto,BOR,Gabriel Bortoleto,sauber,Sauber,11,11,13,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,bearman,BEA,Oliver Bearman,haas,Haas F1 Team,12,12,12,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,13,13,9,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,lawson,LAW,Liam Lawson,rb,RB F1 Team,14,14,16,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,ocon,OCO,Esteban Ocon,haas,Haas F1 Team,15,15,15,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,hulkenberg,HUL,Nico Hülkenberg,sauber,Sauber,16,16,14,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,17,17,18,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,gasly,GAS,Pierre Gasly,alpine,Alpine F1 Team,18,18,19,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,stroll,STR,Lance Stroll,aston_martin,Aston Martin,19,19,17,19,Finished,0
+2025,23,2025_23,Qatar Grand Prix,2025-11-30,colapinto,COL,Franco Colapinto,alpine,Alpine F1 Team,20,20,20,19,Finished,0
 2026,2,2026_2,Chinese Grand Prix,2026-03-15,russell,RUS,George Russell,mercedes,Mercedes,1,1,1,19,Finished,8
 2026,2,2026_2,Chinese Grand Prix,2026-03-15,leclerc,LEC,Charles Leclerc,ferrari,Ferrari,2,2,6,19,Finished,7
 2026,2,2026_2,Chinese Grand Prix,2026-03-15,hamilton,HAM,Lewis Hamilton,ferrari,Ferrari,3,3,4,19,Finished,6

@@ -18,12 +18,32 @@ from catboost import CatBoostClassifier
 
 from preprocessing import preprocess_data
 
+from sqlalchemy import create_engine, text
+from urllib.parse import quote_plus
+import urllib
+
+SERVER = r"localhost"
+DATABASE = "f1_data"
+DRIVER = "ODBC Driver 17 for SQL Server"
+
+connection_string = (
+    f"DRIVER={{{DRIVER}}};"
+    f"SERVER={SERVER};"
+    f"DATABASE={DATABASE};"
+    "Trusted_Connection=yes;"
+)
+
+engine = create_engine(
+    f"mssql+pyodbc:///?odbc_connect={quote_plus(connection_string)}"
+)
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DATA_PATH = os.path.join(
-    BASE_DIR, "data", "raw", "podium_prediction_dataset.csv"
-)
+query = """
+SELECT *
+FROM [podium_prediction_dataset]
+"""
 
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
@@ -172,7 +192,7 @@ def train_model():
     os.makedirs(MODELS_DIR, exist_ok=True)
     os.makedirs(PROCESSED_DIR, exist_ok=True)
 
-    df = pd.read_csv(DATA_PATH)
+    df = pd.read_sql(query, engine)
     df = preprocess_data(df)
     df = create_targets(df)
 
@@ -184,8 +204,8 @@ def train_model():
     if missing_targets:
         raise ValueError(f"Missing target columns: {missing_targets}")
 
-    train_df = df[(df["year"] < 2020) & (df["year"] >= 2010)].copy()
-    test_df = df[(df["year"] >= 2020) & (df["year"] <= 2022)].copy()
+    train_df = df[df["race_date"] < "2026-01-01"].copy()
+    test_df = df[df["race_date"] >= "2026-01-01"].copy()
 
     X_train = train_df[FEATURES]
     X_test = test_df[FEATURES]

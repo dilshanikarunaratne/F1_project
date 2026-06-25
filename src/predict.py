@@ -3,14 +3,38 @@ import joblib
 import pandas as pd
 import sys
 
+from sqlalchemy import create_engine, text
+from urllib.parse import quote_plus
+import urllib
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
 from src.preprocessing import preprocess_data
 
-RAW_DATA_PATH = os.path.join(BASE_DIR, "data", "raw", "podium_prediction_dataset.csv")
+SERVER = r"localhost"
+DATABASE = "f1_data"
+DRIVER = "ODBC Driver 17 for SQL Server"
 
-df = pd.read_csv(RAW_DATA_PATH)
+connection_string = (
+    f"DRIVER={{{DRIVER}}};"
+    f"SERVER={SERVER};"
+    f"DATABASE={DATABASE};"
+    "Trusted_Connection=yes;"
+)
+
+engine = create_engine(
+    f"mssql+pyodbc:///?odbc_connect={quote_plus(connection_string)}"
+)
+
+
+query = """
+SELECT *
+FROM [podium_prediction_dataset]
+"""
+
+df = pd.read_sql(query, engine)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 MODEL_PATH = os.path.join(

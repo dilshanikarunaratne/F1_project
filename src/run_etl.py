@@ -45,12 +45,12 @@ def run_sql_file(filename):
 def validate_prediction_dataset():
     query = """
     SELECT COUNT(*) AS row_count
-    FROM vw_prediction_dataset
+    FROM podium_prediction_dataset
     """
 
     with engine.connect() as conn:
         result = conn.execute(text(query)).fetchone()
-        print(f"vw_prediction_dataset row count: {result.row_count}")
+        print(f"podium_prediction_dataset row count: {result.row_count}")
 
 
 def run_etl():
@@ -70,6 +70,7 @@ def run_etl():
     run_sql_file("vw_reliability_features_new.sql")
     run_sql_file("podium_base_table_new.sql")
     run_sql_file("vw_podium_prediction_dataset_new.sql")
+    run_sql_file("truncate_and_insert_data_to_podium_prediction_dataset.sql")
 
     # 4. Validate final ML dataset
     validate_prediction_dataset()

@@ -4,6 +4,9 @@ import joblib
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from sqlalchemy import create_engine, text
+from urllib.parse import quote_plus
+import urllib
 
 
 # -------------------------------------------------------
@@ -14,9 +17,25 @@ sys.path.append(BASE_DIR)
 
 from src.predict import make_predictions
 
-RAW_DATA_PATH = os.path.join(
-    BASE_DIR, "data", "raw", "podium_prediction_dataset.csv"
+SERVER = r"localhost"
+DATABASE = "f1_data"
+DRIVER = "ODBC Driver 17 for SQL Server"
+
+connection_string = (
+    f"DRIVER={{{DRIVER}}};"
+    f"SERVER={SERVER};"
+    f"DATABASE={DATABASE};"
+    "Trusted_Connection=yes;"
 )
+
+engine = create_engine(
+    f"mssql+pyodbc:///?odbc_connect={quote_plus(connection_string)}"
+)
+
+query = """
+SELECT *
+FROM [podium_prediction_dataset]
+"""
 
 MODEL_PATH = os.path.join(
     BASE_DIR, "models", "race_outcome_prediction_models.pkl"
@@ -39,7 +58,7 @@ st.title("F1 Strategy Intelligence Platform")
 # -------------------------------------------------------
 @st.cache_data
 def load_raw_data():
-    return pd.read_csv(RAW_DATA_PATH)
+    return pd.read_sql(query, engine)
 
 
 @st.cache_resource
@@ -59,31 +78,36 @@ def create_future_race_features(df, selected_year, selected_race):
     Creates pre-race future Grand Prix rows using the latest available
     data for each driver/constructor in the selected year.
 
-    This is for BEFORE qualifying, so the model should NOT use:
-    grid, qualifying_position, qualifying_gap_to_pole_ms,
-    teammate_qualifying_gap_ms.
+    Future race metadata such as round and race_date comes from
+    FUTURE_RACE_CALENDAR.
     """
 
-    year_data = df[df["year"] == selected_year].copy()
+    year_data = df[df["season"] == selected_year].copy()
 
     if year_data.empty:
         year_data = df.copy()
 
     latest_rows = (
         year_data
-        .sort_values(["year", "round"])
-        .groupby(["driverId", "constructorId"], as_index=False)
+        .sort_values(["season", "round"])
+        .groupby(["driver_name", "constructor_name"], as_index=False)
         .tail(1)
         .copy()
     )
 
-    latest_round = year_data["round"].max()
+    race_info = FUTURE_RACE_CALENDAR.get(selected_race)
 
-    latest_rows["year"] = selected_year
-    latest_rows["round"] = latest_round + 1
+    if race_info is None:
+        latest_round = year_data["round"].max()
+        latest_rows["round"] = latest_round + 1
+        latest_rows["race_date"] = None
+    else:
+        latest_rows["round"] = race_info["round"]
+        latest_rows["race_date"] = race_info["race_date"]
+
+    latest_rows["season"] = selected_year
     latest_rows["race_name"] = selected_race
 
-    # Clear future result/target columns
     cols_to_clear = [
         "raceId",
         "resultId",
@@ -108,7 +132,7 @@ def create_future_race_features(df, selected_year, selected_race):
 # -------------------------------------------------------
 st.sidebar.header("Race Selection")
 
-year_options = sorted(df["year"].dropna().unique())
+year_options = sorted(df["season"].dropna().unique())
 
 selected_year = st.sidebar.selectbox(
     "Select Year",
@@ -117,36 +141,39 @@ selected_year = st.sidebar.selectbox(
 )
 
 existing_races = sorted(
-    df[df["year"] == selected_year]["race_name"].dropna().unique()
+    df[df["season"] == selected_year]["race_name"].dropna().unique()
 )
 
-future_races = [
-    "Canadian Grand Prix",
-    "Spanish Grand Prix",
-    "Austrian Grand Prix",
-    "British Grand Prix",
-    "Belgian Grand Prix",
-    "Hungarian Grand Prix",
-    "Dutch Grand Prix",
-    "Italian Grand Prix",
-    "Azerbaijan Grand Prix",
-    "Singapore Grand Prix",
-    "United States Grand Prix",
-    "Mexico City Grand Prix",
-    "São Paulo Grand Prix",
-    "Las Vegas Grand Prix",
-    "Qatar Grand Prix",
-    "Abu Dhabi Grand Prix",
-]
+FUTURE_RACE_CALENDAR = {
+    "Austrian Grand Prix": {"round": 11, "race_date": "2026-06-28"},
+    "British Grand Prix": {"round": 12, "race_date": "2026-07-05"},
+    "Belgian Grand Prix": {"round": 13, "race_date": "2026-07-19"},
+    "Hungarian Grand Prix": {"round": 14, "race_date": "2026-07-26"},
+    "Dutch Grand Prix": {"round": 15, "race_date": "2026-08-23"},
+    "Italian Grand Prix": {"round": 16, "race_date": "2026-09-06"},
+    "Azerbaijan Grand Prix": {"round": 17, "race_date": "2026-09-20"},
+    "Singapore Grand Prix": {"round": 18, "race_date": "2026-10-04"},
+    "United States Grand Prix": {"round": 19, "race_date": "2026-10-18"},
+    "Mexico City Grand Prix": {"round": 20, "race_date": "2026-10-25"},
+    "São Paulo Grand Prix": {"round": 21, "race_date": "2026-11-08"},
+    "Las Vegas Grand Prix": {"round": 22, "race_date": "2026-11-21"},
+    "Qatar Grand Prix": {"round": 23, "race_date": "2026-11-29"},
+    "Abu Dhabi Grand Prix": {"round": 24, "race_date": "2026-12-06"},
+}
+
+future_races = list(FUTURE_RACE_CALENDAR.keys())
 
 race_options = existing_races + [
-    race for race in future_races if race not in existing_races
+    race for race in future_races
+    if race not in existing_races
 ]
+
+default_race = "Australian Grand Prix"
 
 selected_race = st.sidebar.selectbox(
     "Select Grand Prix",
     race_options,
-    index=len(race_options) - 1
+    index=race_options.index(default_race)
 )
 
 
@@ -154,17 +181,32 @@ selected_race = st.sidebar.selectbox(
 # Select or create race dataframe
 # -------------------------------------------------------
 race_df = df[
-    (df["year"] == selected_year) &
+    (df["season"] == selected_year) &
     (df["race_name"] == selected_race)
 ].copy()
 
 is_future_race = race_df.empty
 
 if is_future_race:
-    st.info(
-        f"{selected_race} {selected_year} is not in the dataset yet. "
-        "Creating pre-race prediction rows from the latest available driver and constructor form."
-    )
+    race_info = FUTURE_RACE_CALENDAR.get(selected_race)
+
+    if race_info:
+        st.info(
+            f"""
+**Future Grand Prix Prediction**
+
+**Race:** {selected_race} {selected_year}  
+**Round:** {race_info["round"]}  
+**Race Date:** {race_info["race_date"]}
+
+Creating pre-race prediction rows from the latest available driver and constructor form.
+"""
+        )
+    else:
+        st.warning(
+            f"{selected_race} is not in the future race calendar. "
+            "Using latest available data as fallback."
+        )
 
     race_df = create_future_race_features(
         df=df,
@@ -172,10 +214,24 @@ if is_future_race:
         selected_race=selected_race
     )
 
+    if race_df.empty:
+        st.error("Future race records could not be created.")
+        st.stop()
+
+
 
 # -------------------------------------------------------
 # Generate predictions
 # -------------------------------------------------------
+
+
+race_df = race_df.drop_duplicates(
+    subset=["season", "round", "race_name", "driver_name", "constructor_name"],
+    keep="last"
+).copy()
+
+print(race_df.columns.tolist())
+
 prediction_df = make_predictions(race_df)
 
 prediction_df = prediction_df.sort_values(
@@ -209,6 +265,71 @@ st.dataframe(
     prediction_df[available_columns],
     use_container_width=True
 )
+
+# -------------------------------------------------------
+# Predticted Vs Actual
+# -------------------------------------------------------
+
+if not is_future_race:
+    st.divider()
+    st.subheader(f"Prediction vs Actual Result - {selected_race} {selected_year}")
+
+    comparison_columns = [
+        "driver_name",
+        "constructor_name",
+
+        "finish_position",
+        "podium_finish",
+        "podium_finish_prediction",
+        "podium_finish_probability",
+
+        "top_10_finish",
+        "top_10_finish_prediction",
+        "top_10_finish_probability",
+
+        "dnf",
+        "dnf_prediction",
+        "dnf_probability",
+    ]
+
+    available_comparison_columns = [
+        col for col in comparison_columns
+        if col in prediction_df.columns
+    ]
+
+    comparison_df = prediction_df[available_comparison_columns].copy()
+
+    if {
+        "podium_finish",
+        "podium_finish_prediction"
+    }.issubset(comparison_df.columns):
+        comparison_df["podium_correct"] = (
+            comparison_df["podium_finish"] ==
+            comparison_df["podium_finish_prediction"]
+        )
+
+    if {
+        "top_10_finish",
+        "top_10_finish_prediction"
+    }.issubset(comparison_df.columns):
+        comparison_df["top_10_correct"] = (
+            comparison_df["top_10_finish"] ==
+            comparison_df["top_10_finish_prediction"]
+        )
+
+    if {
+        "dnf",
+        "dnf_prediction"
+    }.issubset(comparison_df.columns):
+        comparison_df["dnf_correct"] = (
+            comparison_df["dnf"] ==
+            comparison_df["dnf_prediction"]
+        )
+
+    st.dataframe(
+        comparison_df.sort_values("finish_position"),
+        use_container_width=True
+    )
 
 
 # -------------------------------------------------------

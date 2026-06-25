@@ -5,6 +5,11 @@ import numpy as np
 def preprocess_data(df):
     df = df.copy()
 
+    df = df.drop_duplicates(
+        subset=["season", "round", "race_name", "driver_name", "constructor_name"],
+        keep="last"
+    )
+
     # -----------------------------
     # 1. Handle date column
     # -----------------------------

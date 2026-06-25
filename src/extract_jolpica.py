@@ -25,6 +25,41 @@ def fetch_json(url):
     return response.json()
 
 
+def fetch_all_pages(base_url, table_key):
+    all_items = []
+    offset = 0
+    limit = 100
+
+    while True:
+        separator = "&" if "?" in base_url else "?"
+        url = f"{base_url}{separator}limit={limit}&offset={offset}"
+
+        data = fetch_json(url)
+
+        mrdata = data["MRData"]
+        total = int(mrdata.get("total", 0))
+
+        if table_key == "RaceTable":
+            items = mrdata.get("RaceTable", {}).get("Races", [])
+        elif table_key == "DriverTable":
+            items = mrdata.get("DriverTable", {}).get("Drivers", [])
+        elif table_key == "ConstructorTable":
+            items = mrdata.get("ConstructorTable", {}).get("Constructors", [])
+        elif table_key == "StandingsTable":
+            items = mrdata.get("StandingsTable", {}).get("StandingsLists", [])
+        else:
+            items = []
+
+        all_items.extend(items)
+
+        offset += limit
+
+        if offset >= total:
+            break
+
+    return all_items
+
+
 def save_csv(df, filename):
     path = os.path.join(RAW_DIR, filename)
     df.to_csv(path, index=False)
@@ -42,12 +77,11 @@ def safe_int(value):
 # Extractors
 # -----------------------------
 def extract_races(season):
-    url = f"{BASE_URL}/{season}.json"
-    data = fetch_json(url)
+    races = fetch_all_pages(f"{BASE_URL}/{season}.json", "RaceTable")
 
     rows = []
 
-    for race in data["MRData"]["RaceTable"].get("Races", []):
+    for race in races:
         circuit = race.get("Circuit", {})
         location = circuit.get("Location", {})
 
@@ -70,12 +104,11 @@ def extract_races(season):
 
 
 def extract_drivers(season):
-    url = f"{BASE_URL}/{season}/drivers.json?limit=2000"
-    data = fetch_json(url)
+    drivers = fetch_all_pages(f"{BASE_URL}/{season}/drivers.json", "DriverTable")
 
     rows = []
 
-    for driver in data["MRData"]["DriverTable"].get("Drivers", []):
+    for driver in drivers:
         rows.append({
             "season": season,
             "driver_id": driver.get("driverId"),
@@ -93,12 +126,11 @@ def extract_drivers(season):
 
 
 def extract_constructors(season):
-    url = f"{BASE_URL}/{season}/constructors.json?limit=2000"
-    data = fetch_json(url)
+    constructors = fetch_all_pages(f"{BASE_URL}/{season}/constructors.json", "ConstructorTable")
 
     rows = []
 
-    for constructor in data["MRData"]["ConstructorTable"].get("Constructors", []):
+    for constructor in constructors:
         rows.append({
             "season": season,
             "constructor_id": constructor.get("constructorId"),
@@ -111,12 +143,11 @@ def extract_constructors(season):
 
 
 def extract_results(season):
-    url = f"{BASE_URL}/{season}/results.json?limit=2000"
-    data = fetch_json(url)
+    races = fetch_all_pages(f"{BASE_URL}/{season}/results.json", "RaceTable")
 
     rows = []
 
-    for race in data["MRData"]["RaceTable"].get("Races", []):
+    for race in races:
         for result in race.get("Results", []):
             driver = result.get("Driver", {})
             constructor = result.get("Constructor", {})
@@ -159,12 +190,11 @@ def extract_results(season):
 
 
 def extract_qualifying(season):
-    url = f"{BASE_URL}/{season}/qualifying.json?limit=2000"
-    data = fetch_json(url)
+    races = fetch_all_pages(f"{BASE_URL}/{season}/qualifying.json", "RaceTable")
 
     rows = []
 
-    for race in data["MRData"]["RaceTable"].get("Races", []):
+    for race in races:
         for quali in race.get("QualifyingResults", []):
             driver = quali.get("Driver", {})
             constructor = quali.get("Constructor", {})
@@ -197,10 +227,13 @@ def extract_pitstops(season, races_df):
 
     for _, race in races_df.iterrows():
         round_no = race["round"]
-        url = f"{BASE_URL}/{season}/{round_no}/pitstops.json?limit=2000"
-        data = fetch_json(url)
 
-        for race_data in data["MRData"]["RaceTable"].get("Races", []):
+        races = fetch_all_pages(
+            f"{BASE_URL}/{season}/{round_no}/pitstops.json",
+            "RaceTable"
+        )
+
+        for race_data in races:
             for stop in race_data.get("PitStops", []):
                 rows.append({
                     "season": season,
@@ -218,12 +251,14 @@ def extract_pitstops(season, races_df):
 
 
 def extract_driver_standings(season):
-    url = f"{BASE_URL}/{season}/driverstandings.json?limit=2000"
-    data = fetch_json(url)
+    standings_lists = fetch_all_pages(
+        f"{BASE_URL}/{season}/driverstandings.json",
+        "StandingsTable"
+    )
 
     rows = []
 
-    for standings_list in data["MRData"]["StandingsTable"].get("StandingsLists", []):
+    for standings_list in standings_lists:
         round_no = standings_list.get("round")
 
         for standing in standings_list.get("DriverStandings", []):
@@ -249,12 +284,14 @@ def extract_driver_standings(season):
 
 
 def extract_constructor_standings(season):
-    url = f"{BASE_URL}/{season}/constructorstandings.json?limit=2000"
-    data = fetch_json(url)
+    standings_lists = fetch_all_pages(
+        f"{BASE_URL}/{season}/constructorstandings.json",
+        "StandingsTable"
+    )
 
     rows = []
 
-    for standings_list in data["MRData"]["StandingsTable"].get("StandingsLists", []):
+    for standings_list in standings_lists:
         round_no = standings_list.get("round")
 
         for standing in standings_list.get("ConstructorStandings", []):
@@ -276,12 +313,11 @@ def extract_constructor_standings(season):
 
 
 def extract_sprint_results(season):
-    url = f"{BASE_URL}/{season}/sprint.json?limit=2000"
-    data = fetch_json(url)
+    races = fetch_all_pages(f"{BASE_URL}/{season}/sprint.json", "RaceTable")
 
     rows = []
 
-    for race in data["MRData"]["RaceTable"].get("Races", []):
+    for race in races:
         for result in race.get("SprintResults", []):
             driver = result.get("Driver", {})
             constructor = result.get("Constructor", {})
@@ -329,10 +365,13 @@ def extract_lap_times(season, races_df):
 
     for _, race in races_df.iterrows():
         round_no = race["round"]
-        url = f"{BASE_URL}/{season}/{round_no}/laps.json?limit=2000"
-        data = fetch_json(url)
 
-        for race_data in data["MRData"]["RaceTable"].get("Races", []):
+        races = fetch_all_pages(
+            f"{BASE_URL}/{season}/{round_no}/laps.json",
+            "RaceTable"
+        )
+
+        for race_data in races:
             for lap in race_data.get("Laps", []):
                 lap_number = lap.get("number")
 
@@ -350,6 +389,15 @@ def extract_lap_times(season, races_df):
     return pd.DataFrame(rows)
 
 
+def print_round_check(season, name, df):
+    if df.empty or "round" not in df.columns:
+        print(f"{season} - {name}: no round data")
+        return
+
+    rounds = sorted(df["round"].dropna().unique())
+    print(f"{season} - {name}: {len(rounds)} rounds -> {rounds}")
+
+
 def extract_season(season):
     print(f"\nExtracting season: {season}")
 
@@ -363,6 +411,15 @@ def extract_season(season):
     constructor_standings_df = extract_constructor_standings(season)
     sprint_results_df = extract_sprint_results(season)
     lap_times_df = extract_lap_times(season, races_df)
+
+    print_round_check(season, "races", races_df)
+    print_round_check(season, "results", results_df)
+    print_round_check(season, "qualifying", qualifying_df)
+    print_round_check(season, "pitstops", pitstops_df)
+    print_round_check(season, "driver_standings", driver_standings_df)
+    print_round_check(season, "constructor_standings", constructor_standings_df)
+    print_round_check(season, "sprint_results", sprint_results_df)
+    print_round_check(season, "lap_times", lap_times_df)
 
     print(f"Finished extracting season: {season}")
 
@@ -379,13 +436,6 @@ def extract_season(season):
         "lap_times": lap_times_df,
     }
 
-
-# -----------------------------
-# Main
-# -----------------------------
-if __name__ == "__main__":
-    START_SEASON = 2024
-    END_SEASON = 2026
 
 def run_extraction(start_season=2025, end_season=2026):
     all_data = {
@@ -434,7 +484,4 @@ def run_extraction(start_season=2025, end_season=2026):
 
 
 if __name__ == "__main__":
-    run_extraction(start_season=2025, end_season=2026)   
-        
-
-        
+    run_extraction(start_season=2025, end_season=2026)
